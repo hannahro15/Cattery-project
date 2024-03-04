@@ -23,4 +23,28 @@ As a user they should expect the website to be responsive and for everything to 
 
 The user expects the website to run smoothly without error messages and the images to load without any issues.
 
+## Wireframes
 
+Home Page 
+
+[Mobile view](wireframes/Home-mobile.png)
+
+[Desktop view](wireframes/Home-desktop.png)
+
+About and Services Page
+
+[Mobile view](wireframes/Aboutandservices-mobile.png)
+
+[Desktop view](wireframes/Aboutandservices-desktop.png)
+
+Gallery Page
+
+[Mobile view](wireframes/Gallery-mobile.png)
+
+[Desktop view](wireframes/Gallery-desktop.png)
+
+Contact Page
+
+[Mobile view](wireframes/Contact-mobile.png)
+
+[Desktop view](wireframes/Contact-desktop.png)
