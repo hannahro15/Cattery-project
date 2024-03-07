@@ -42,8 +42,6 @@ body div {
 
 .nav-bar {
     text-align: center;
-    
-
 }
 
 ul {
@@ -64,15 +62,78 @@ nav li {
     color: black;
 }
 
-/*-------------------body----------*/
-
+/*-------------------Home Page-----*/
 body img {
-    height: 90vh;
-    width: 60vw;
+    height: 80vh;
+    width: 50vw;
     border-radius: 20px;
 }
 
-/*-------------------footer----------*/
+/*---------------------About and Services Page --------*/
+
+#about-section{
+    text-align: center;
+}
+
+#about-title {
+    text-align: right;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+#about-image {
+    float: left;
+    height: 40vh;
+    width: 30vw;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+#about-content {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 200px;
+    margin-left: 400px;
+    margin-right: 100px;
+    text-align: right;
+}
+
+#services-title {
+    font-size: 50px;
+    margin-top: 400px;
+    margin-left: 100px;
+    margin-right: 600px;
+    text-decoration: underline;
+}
+
+#services-image {
+    float: right;
+    height: 60vh;
+    width: 40vw;
+    padding: 20px;
+    border-radius: 20px;
+    
+
+}
+
+#services-content {
+    font-size: 40px;
+    margin-right: 600px;
+    padding: 20px;
+    text-align: left;
+
+}
+
+
+
+/*-------------------Gallery----------*/
+
+/*-------------------Contact----------*/
+
+/*-------------------Footer----------*/
 
 footer {
     background-color: #221A70;
