@@ -150,6 +150,47 @@ body img {
 
 /*-------------------Contact----------*/
 
+form {
+    padding: 15px;
+    margin: 20px;
+    margin: 0 auto;
+}
+
+form > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 2rem;
+
+}
+
+.form-container {
+    border: 2px solid black;
+}
+
+.form-container > div {
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+#first-name {
+    text-align: center;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: lightblue;
+}
+
+#contact-details {
+    margin: 0 auto;
+    padding: 20px;
+}
+
 /*-------------------Footer----------*/
 
 footer {
