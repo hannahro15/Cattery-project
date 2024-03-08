@@ -70,6 +70,19 @@ body img {
     border-radius: 20px;
 }
 
+#home-title {
+    padding: 20px;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.home-text {
+    font-size: 30px;
+    padding: 20px;
+    text-align: justify;
+    margin: 20px;
+}
+
 /*---------------------About and Services Page --------*/
 
 
