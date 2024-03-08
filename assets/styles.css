@@ -3,23 +3,23 @@
 /*------------------head-----------*/
 
 h1 {
-    text-align: center;
+    text-align: justify;
     font-family: Roboto, Helvetica, sans-serif;
     font-weight: 700;
-    padding: 30px 10px 5px 10px;
+    padding: 20px;
+    margin: 20px;
     margin-top: 10px;
     font-size: 40px;
-    text-transform: uppercase;   
+    text-transform: uppercase; 
+     
 }
 
 /*-------------------header----------*/
 
 #header-image {
-    height: 70vh;
-    width: 100vw;
-    margin-top: 40px;
-    margin-left: 0;
-    padding: 20px;
+    width: 40rem;
+    height: 20rem;
+    padding: 5px;
 }
 
 body div {
@@ -28,14 +28,20 @@ body div {
     
 }
 
+.logo-and-title {
+    margin: 0 auto;
+    margin-left: 50px;
+    padding: 10px;
+}
+
 /*-------------------logo----------*/
 
 #logo {
     float: left;
-    width: 20vw;
-    height: 20vw;
+    width: 5rem;
+    height: 5rem;
     margin-top: 5px;
-    padding: 10px;
+    padding: 5px;
     
 }
 
@@ -45,35 +51,33 @@ body div {
     text-align: center;
 }
 
-ul {
-    margin: 0 auto;
-}
 
 a {
     text-decoration: none;
     color: black;
 }
 
+
 nav li {
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
     margin: 10px;
     font-weight: bold;
+    font-size: 15px;
     text-transform: uppercase;
-    color: black;
 }
 
 /*-------------------Home Page-----*/
-body img {
-    height: 80vh;
-    width: 50vw;
-    border-radius: 20px;
+
+#home-page {
+    margin: 0 auto;
 }
 
 #home-title {
     padding: 20px;
     margin: 20px;
     font-size: 50px;
+    margin: 0 auto;
 }
 
 .home-text {
@@ -82,6 +86,15 @@ body img {
     text-align: justify;
     margin: 20px;
 }
+
+ #home-page-image {
+    max-width: 20rem;
+    max-height: 45rem;
+    padding: 10px;
+    margin: 0 auto;
+    margin: 10px;
+}
+
 
 /*---------------------About and Services Page --------*/
 
@@ -164,20 +177,15 @@ form > h2 {
 
 }
 
-.form-container {
-    border: 2px solid black;
-}
-
 .form-container > div {
-    font-weight: 300;
     padding: 10px;
     text-align: center;
     margin: 0 auto;
 }
 
 
-#first-name {
-    text-align: center;
+.form-details {
+    font-weight: 400px;
 }
 
 button {
@@ -194,9 +202,10 @@ button {
 /*-------------------Footer----------*/
 
 footer {
-    background-color: #221A70;
+    background-color: darkslategrey;
     height: 60px;
     width: 100%;
     position: fixed;
     left: 0;
+    bottom: 0;
 }
