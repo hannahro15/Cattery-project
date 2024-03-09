@@ -195,10 +195,31 @@ button {
 /*-------------------Footer----------*/
 
 footer {
-    background-color: darkslategrey;
-    height: 60px;
+    background-color: darkgrey;
+    height: 200px;
     width: 100%;
     position: fixed;
-    left: 0;
     bottom: 0;
+}
+
+div {
+    display: inline-block;
+    padding: 10px;
+    width: 30%;
+}
+
+.contact-container {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.opening-container {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.social-container {
+   text-align: center;
 }
