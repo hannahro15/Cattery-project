@@ -7,19 +7,20 @@ h1 {
     font-family: Roboto, Helvetica, sans-serif;
     font-weight: 700;
     padding: 20px;
-    margin: 20px;
+    margin-left: 45px;
     margin-top: 10px;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase; 
+    width: 100%;
      
 }
 
 /*-------------------header----------*/
 
 #header-image {
-    min-width: 100%;
-    height: 40rem;
+    width: 100%;
     padding: 5px;
+    margin: 0 auto;
 }
 
 .logo-and-title {
@@ -33,9 +34,8 @@ h1 {
     float: left;
     width: 5rem;
     height: 5rem;
-    margin-top: 5px;
-    padding: 5px;
-    
+    margin-top: 30px;
+    padding: 5px; 
 }
 
 /*-------------------Navigation bar----------*/
@@ -52,7 +52,7 @@ a {
 
 
 nav li {
-    display: inline-block;
+    display: block;
     padding: 20px;
     margin: 10px;
     font-weight: bold;
@@ -68,24 +68,30 @@ nav li {
 
 #home-title {
     padding: 20px;
-    margin: 20px;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0 auto;
+    text-align: center;
 }
 
-.home-text {
+.home-text-1 {
     font-size: 30px;
     padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.home-text-2 {
+    font-size: 30px;
+    padding: 20px;
+    margin-bottom: 100px;
     text-align: justify;
-    margin: 20px;
 }
 
  #home-page-image {
-    max-width: 20rem;
-    max-height: 45rem;
+    width: 250px;
+    height: 400px;
     padding: 10px;
-    margin: 0 auto;
-    margin: 10px;
+    margin-left: 35px;
 }
 
 
@@ -93,61 +99,49 @@ nav li {
 
 
 #about-title {
-    text-align: right;
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: underline;
-    margin-right: 400px;
     margin-top: 60px;
     padding: 10px;
+    text-align: center;
 }
 
 #about-image {
-    float: left;
-    height: 35vh;
-    width: 35vw;
+    margin: 0 auto;
+    height: 20rem;
+    width: 20rem;
     padding: 20px;
     border-radius: 20px;
 }
 
 
 #about-content {
-    font-size: 30px;
-    padding-top: 10px;
-    padding-left: 200px;
-    margin-left: 300px;
-    margin-right: 100px;
+    font-size: 1rem;
     text-align: justify;
 }
 
 #services-title {
     text-align: center;
-    font-size: 50px;
-    margin-left: 50px;
-    margin-right: 600px;
-    margin-top: 300px;
+    font-size: 40px;
     padding: 10px;
     text-decoration: underline;
 }
 
 #services-image {
-    float: right;
-    height: 40vh;
-    width: 40vw;
+    margin: 0 auto;
+    height: 20rem;
+    width: 20rem;
     padding: 20px;
-    border-radius: 20px;
-    margin: 20px 100px 20px 20px;
-    
-
 }
 
 #services-content li {
    padding: 5px;
-   font-size: 30px;
+   font-size: 1rem;
    text-align: justify;
 }
 
 #thank-you {
-    font-size: 30px;
+    font-size: 1rem;
     padding: 20px;
 }
 
@@ -196,14 +190,14 @@ button {
 
 footer {
     background-color: darkgrey;
-    height: 200px;
+    height: 100px;
     width: 100%;
     position: fixed;
     bottom: 0;
 }
 
-div {
-    display: inline-block;
+footer div {
+    display: block;
     padding: 10px;
     width: 30%;
 }
@@ -212,14 +206,115 @@ div {
     text-align: center;
     padding: 10px;
     margin: 10px;
+    font-size: 5px;
 }
 
 .opening-container {
     padding: 10px;
     margin: 10px;
+    font-size: 5px;
+    text-align: center;
+    display: block;
 }
 
 
 .social-container {
    text-align: center;
+   font-size: 5px;
+}
+
+/*-------------------Media Queries----------*/
+
+
+
+@media screen and (min-width: 619px) {
+    #header-image {
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+    nav li {
+        display: inline-block;
+   }
+
+}
+
+@media screen and (min-width: 768px) {
+    #logo {
+        float: left;
+        width: 8rem;
+        height: 8rem;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px; 
+    }
+    h1 {
+        text-align: center;
+        font-size: 60px;
+        margin-top: 35px;
+        padding: 20px;
+    }
+
+    #home-title {
+        padding: 20px;
+        font-size: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    #home-wrapper-text {
+        display: inline-block;
+    }
+    
+     #home-page-image {
+        width: 250px;
+        height: 400px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #about-image {
+        margin: 0 auto;
+        height: 20rem;
+        width: 20rem;
+        padding: 20px;
+        float: left;
+    }
+    
+    
+    #about-content {
+        font-size: 1rem;
+        text-align: justify;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    
+    #services-title {
+        text-align: center;
+        font-size: 40px;
+        padding: 10px;
+        text-decoration: underline;
+        margin-top: 270px;
+    }
+    
+    #services-image {
+        margin: 0 auto;
+        height: 20rem;
+        width: 20rem;
+        padding: 20px;
+        float: right;
+    }
+
+    #services-content li {
+        margin-top: 20px;
+    }
+    
+    #thank-you {
+        font-size: 1rem;
+        padding: 20px;
+        text-align: center;
+    }
+    
+
+    
 }
