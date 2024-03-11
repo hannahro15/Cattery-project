@@ -148,6 +148,11 @@ nav li {
 
 /*-------------------Gallery----------*/
 
+ #gallery {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+ }
 /*-------------------Contact----------*/
 
 form {
