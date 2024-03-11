@@ -167,23 +167,39 @@ form > h2 {
 .form-container > div {
     padding: 10px;
     text-align: center;
-    margin: 0 auto;
 }
-
 
 .form-details {
     font-weight: 400px;
 }
 
-button {
+input {
+    display: block;
+    margin: 0 auto;
+}
+
+textarea {
+    display: block;
+    margin: 0 auto;
+}
+
+#phone {
+    text-align: center;
+}
+
+#submit {
   padding: 10px;
-  border-radius: 20px;
-  background-color: lightblue;
+  text-align: center;
+}
+
+button {
+    background-color: lightgrey;
 }
 
 #contact-details {
     margin: 0 auto;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 /*-------------------Footer----------*/
@@ -314,7 +330,24 @@ footer div {
         padding: 20px;
         text-align: center;
     }
-    
 
+    .form-container {
+        text-align: left;
+    }
     
+    input {
+        display: inline-block;
+        width: 30%;
+    }
+
+    textarea {
+        display: inline-block;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+         .form-details{
+            display : block;
+        }
 }
