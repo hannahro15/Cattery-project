@@ -178,12 +178,7 @@ form > h2 {
     font-weight: 400px;
 }
 
-input {
-    display: block;
-    margin: 0 auto;
-}
-
-textarea {
+input, textarea {
     display: block;
     margin: 0 auto;
 }
@@ -211,38 +206,32 @@ button {
 
 footer {
     background-color: darkgrey;
-    height: 100px;
+    height: 360px;
     width: 100%;
     position: fixed;
     bottom: 0;
+    text-align: center;
 }
 
-footer div {
-    display: block;
+footer div p {
+    font-size: 10px;
+    margin: 20px;
+}
+
+
+ a {
+    font-size: 15px;
     padding: 10px;
-    width: 30%;
 }
 
 .contact-container {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-size: 5px;
+    margin-top: 10px;
 }
 
-.opening-container {
-    padding: 10px;
-    margin: 10px;
-    font-size: 5px;
-    text-align: center;
-    display: block;
+#copyright {
+    width: 100%;
 }
 
-
-.social-container {
-   text-align: center;
-   font-size: 5px;
-}
 
 /*-------------------Media Queries----------*/
 
@@ -260,7 +249,7 @@ footer div {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     #logo {
         float: left;
         width: 8rem;
@@ -348,11 +337,26 @@ footer div {
     textarea {
         display: inline-block;
     }
-    
 }
 
 @media screen and (max-width: 320px) {
          .form-details{
             display : block;
         }
+}
+
+@media screen and (min-width: 989px) {
+    .contact-container,
+    .opening-container,
+    .social-container {
+    padding: 10px;
+    margin: 10px;
+    font-size: 5px;
+    display: inline-block;
+    text-align: center;
+   
+}
+    footer {
+    height: 200px;
+}
 }
