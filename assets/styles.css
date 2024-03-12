@@ -15,6 +15,11 @@ h1 {
      
 }
 
+/*---------------body-------*/
+body {
+    margin: 0 auto;
+}
+
 /*-------------------header----------*/
 
 #header-image {
@@ -64,6 +69,7 @@ nav li {
 
 #home-page {
     margin: 0 auto;
+    margin-bottom: 300px;
 }
 
 #home-title {
@@ -75,23 +81,27 @@ nav li {
 
 .home-text-1 {
     font-size: 30px;
-    padding: 20px;
-    margin: 10px;
     text-align: center;
 }
 
 .home-text-2 {
     font-size: 30px;
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     text-align: justify;
 }
 
- #home-page-image {
-    width: 250px;
-    height: 400px;
-    padding: 10px;
-    margin-left: 35px;
+
+#home-page-image {
+    height: 300px;
+    width: 150px;
+    margin: auto;
+    display: block;
+    
+}
+
+#home-wrapper-text {
+    margin-bottom: 250px;
 }
 
 
@@ -140,6 +150,10 @@ nav li {
    text-align: justify;
 }
 
+#services-content {
+    margin-bottom: 250px;
+}
+
 #thank-you {
     font-size: 1rem;
     padding: 20px;
@@ -153,6 +167,17 @@ nav li {
     text-decoration: underline;
     padding-bottom: 20px;
  }
+
+ .img-fluid {
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+ }
+
+ .container-fluid {
+    margin-bottom: 500px;
+ }
+
 /*-------------------Contact----------*/
 
 form {
@@ -169,6 +194,10 @@ form > h2 {
 
 }
 
+#form-wrapper {
+    margin-bottom: 400px;
+}
+
 .form-container > div {
     padding: 10px;
     text-align: center;
@@ -181,6 +210,16 @@ form > h2 {
 input, textarea {
     display: block;
     margin: 0 auto;
+}
+
+.label-div {
+    margin: 0 auto;
+    width: 100px;
+}
+
+.input-div {
+    margin: 0 auto;
+    width: 200px;
 }
 
 #submit {
@@ -291,7 +330,8 @@ footer div p {
     #about-content {
         font-size: 1rem;
         text-align: justify;
-        margin-right: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
         margin-top: 20px;
     }
     
@@ -333,6 +373,19 @@ footer div p {
     textarea {
         display: inline-block;
     }
+
+
+    .label-div {
+        margin: 0 auto;
+        clear: both;
+        width: 100px;
+    }
+
+    .input-div {
+        margin: 0 auto;
+        clear: both;
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -342,6 +395,24 @@ footer div p {
 }
 
 @media screen and (min-width: 989px) {
+
+    #home-text-1 {
+        margin-left: 60px;
+        margin-right: 40px;
+        float: left;
+    }
+
+    #home-text-2 {
+        margin-left: 60px;
+        margin-right: 60px;
+        float: left;
+    }
+
+    #home-page {
+        margin-bottom: 80px;
+    }
+    
+
     .contact-container,
     .opening-container,
     .social-container {
@@ -352,7 +423,44 @@ footer div p {
     text-align: center;
    
 }
+   .container-fluid {
+    margin-bottom: 220px;
+   }
+   
+    .input-div {
+        margin: 0 auto;
+        width: 650px;
+    }
+
+    #contact-details {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
     footer {
     height: 200px;
 }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    #home-text-1 {
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+
+    #home-text-2 {
+        margin-bottom: 400px;
+        margin-left: 20px;
+    }
+
+    #about-image, #services-image {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #services-section {
+        margin-bottom: 400px;
+    }
 }

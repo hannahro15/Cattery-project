@@ -26,34 +26,59 @@
     </nav>
     <form>
         <h2>Contact Us!</h2>
+        <div id="form-wrapper">
         <div class="form-container">
              <div id="first-name">
-                <label for="firstname">First Name: </label>
-                <input type="text" id="firstname" name="firstname" autocomplete="given-name" required>
-            </div>
+                <div class="label-div">
+                    <label for="firstname">First Name: </label>
+                </div>
+                <div class="input-div">
+                    <input type="text" id="firstname" name="firstname" autocomplete="given-name" required>
+                </div>
+             </div>
              <div id="last-name">
-                <label for="lastname">Last Name: </label>
-                <input type="text" id="lastname" name="lastname" autocomplete="family-name" required>
+                <div class="label-div">
+                    <label for="lastname">Last Name: </label>
+                </div>
+                <div class="input-div">
+                    <input type="text" id="lastname" name="lastname" autocomplete="family-name" required>
+                </div>
              </div>
              <div id="phone-number">
-                 <label for="phone">Phone: </label>
-                 <input type="tel" id="phone" name="phone" required>
-            </div>
-            <div id ="email-address">
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="email" required>
+                <div class="label-div">
+                    <label for="phone">Phone: </label>
+                </div>
+                <div class="input-div">
+                    <input type="tel" id="phone" name="phone" required>
+                </div>   
+             </div>
+             <div id ="email-address">
+                <div class="label-div">
+                    <label for="email">Email: </label>
+                </div>
+                <div class="input-div">
+                    <input type="email" id="email" name="email" required>
+                </div>
             </div> 
             <div id="cat-name">
-                <label for="catname">Name of cat/s: </label>
-                <input type="text" id="catname" name="catname" required>
+                <div class="label-div">
+                    <label for="catname">Name of cat/s: </label>
+                </div>
+                <div class="input-div">
+                    <input type="text" id="catname" name="catname" required>
+                </div>
             </div>
             <div id="enquiry-message">
-                <label for="enquiry">Enquiry: </label>
-                <textarea placeholder="Please write your enquiry here..." rows="6" id="enquiry"></textarea>
+                <div class="label-div">
+                    <label for="enquiry">Enquiry: </label>
+                </div>
+                <div class="input-div">
+                    <textarea placeholder="Please write your enquiry here..." rows="6" id="enquiry"></textarea>
+                </div>
             </div>
-        </div>
-        <div id="submit">
-        <button>Submit</button> 
+            <div id="submit">
+                <button>Submit</button> 
+            </div>
         </div>
     </form>
     <div id="contact-details">
@@ -76,8 +101,9 @@
              <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
              <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
             </div>
-            <p><em id="copyright">Copyright @ 2024 | The Manchester Cattery | All Rights Reserved</em></p>
+            <p><em id="copyright">Copyright @ 2024 | The Manchester Cattery | All Rights Reserved.</em></p>
         </div>
+    </div>
 </footer>
 </body>
 </html>
