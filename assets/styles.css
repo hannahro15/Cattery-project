@@ -97,6 +97,7 @@ nav li {
     width: 150px;
     margin: auto;
     display: block;
+    border-radius: 15px;
     
 }
 
@@ -121,7 +122,6 @@ nav li {
     height: 20rem;
     width: 20rem;
     padding: 20px;
-    border-radius: 20px;
 }
 
 
@@ -171,6 +171,7 @@ nav li {
     height: 200px;
     width: 300px;
     padding: 5px;
+    border-radius: 15px;
  }
 
  .container-fluid {
