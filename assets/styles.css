@@ -239,6 +239,7 @@ button {
 /*-------------------Footer----------*/
 
 footer {
+    display: flex;
     background-color: darkgrey;
     height: 360px;
     width: 100%;
@@ -249,7 +250,6 @@ footer {
 
 footer div p {
     font-size: 10px;
-    margin: 20px;
 }
 
 
@@ -461,5 +461,8 @@ footer div p {
 
     #services-section {
         margin-bottom: 400px;
+    }
+    footer {
+        display: block;
     }
 }
