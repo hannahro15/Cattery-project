@@ -391,6 +391,9 @@ footer div p {
          .form-details{
             display : block;
         }
+        footer div p {
+            font-size: 8px;
+        }
 }
 
 @media screen and (min-width: 989px) {
@@ -462,7 +465,10 @@ footer div p {
     #services-section {
         margin-bottom: 400px;
     }
+
     footer {
         display: block;
+        height: 300px;
     }
+
 }
