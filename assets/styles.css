@@ -22,35 +22,31 @@ body {
 
 /*-------------------header----------*/
 
-#home-image {
+#large-home-image {
     width: 100%;
     padding: 5px;
     margin: 0 auto;
 }
 
-.logo-and-title {
-    margin: 0 auto;
-    padding: 10px;
-}
-
 .header {
-    display: flex;
+    display: block;
 }
 
 /*-------------------logo----------*/
 
 #logo {
-    float: left;
     width: 5rem;
     height: 5rem;
-    margin-top: 30px;
     padding: 5px; 
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 /*-------------------Navigation bar----------*/
 
 .nav-bar {
     text-align: center;
+    margin-left: 0;
 }
 
 
@@ -296,20 +292,24 @@ footer div p {
 
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     #logo {
-        float: left;
         width: 8rem;
         height: 8rem;
         margin-top: 30px;
         margin-bottom: 30px;
         padding: 20px; 
     }
+
     h1 {
         text-align: center;
         font-size: 60px;
         margin-top: 35px;
         padding: 20px;
+    }
+
+    header {
+       display: flex; 
     }
 
     #home-title {
@@ -401,6 +401,14 @@ footer div p {
 }
 
 @media screen and (max-width: 320px) {
+        #title {
+            text-align: center;
+        }
+        #large-home-image {
+            width: 100%;
+            margin-right: 0;
+        }
+
          .form-details{
             display : block;
         }
@@ -409,7 +417,14 @@ footer div p {
         }
 }
 
+@media screen and (max-width: 380px) {
+    #large-home-image {
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 989px) {
+
 
     #home-text-1 {
         margin-left: 60px;
@@ -485,3 +500,4 @@ footer div p {
     }
 
 }
+
