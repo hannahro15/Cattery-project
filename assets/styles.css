@@ -284,7 +284,6 @@ footer div p {
     #header-image {
         width: 100%;
         padding: 10px;
-        /* margin: 10px; */
     }
     nav li {
         display: inline-block;
@@ -307,28 +306,46 @@ footer div p {
         margin-top: 35px;
         padding: 20px;
     }
+}
 
-    header {
-       display: flex; 
-    }
+@media screen and (min-width: 768px) {
+     header {
+        display: flex; 
+         }
 
-    #home-title {
+     #home-title {
         padding: 20px;
         font-size: 40px;
         margin: 0 auto;
         text-align: center;
-    }
-    
-    #home-wrapper-text {
+     }
+        
+     #home-wrapper-text {
         display: inline-block;
-    }
-    
+     }
+        
      #home-page-image {
         width: 250px;
         height: 400px;
         padding: 10px;
         text-align: center;
-    }
+     }    
+
+    #home-text-1 {
+        margin-left: 60px;
+        margin-right: 40px;
+        float: left;
+     }
+    
+    #home-text-2 {
+        margin-left: 60px;
+        margin-right: 60px;
+        float: left;
+     }
+    
+     #home-page {
+        margin-bottom: 80px;
+     }
 
     #about-image {
         margin: 0 auto;
@@ -336,9 +353,8 @@ footer div p {
         width: 20rem;
         padding: 20px;
         float: left;
-    }
-    
-    
+     }
+          
     #about-content {
         font-size: 1rem;
         text-align: justify;
@@ -346,7 +362,7 @@ footer div p {
         margin-right: 40px;
         margin-top: 20px;
     }
-    
+        
     #services-title {
         text-align: center;
         font-size: 40px;
@@ -354,7 +370,7 @@ footer div p {
         text-decoration: underline;
         margin-top: 270px;
     }
-    
+        
     #services-image {
         margin: 0 auto;
         height: 20rem;
@@ -362,16 +378,37 @@ footer div p {
         padding: 20px;
         float: right;
     }
-
+    
     #services-content li {
         margin-top: 20px;
     }
-    
-    #thank-you {
-        font-size: 1rem;
-        padding: 20px;
+        
+    .contact-container,
+    .opening-container,
+    .social-container {
+        padding: 10px;
+        margin: 10px;
+        font-size: 5px;
+        display: inline-block;
         text-align: center;
+       
     }
+
+    .container-fluid {
+        margin-bottom: 220px;
+    }
+
+    .label-div {
+        margin: 0 auto;
+        clear: both;
+        width: 100px;
+    }
+       
+    .input-div {
+        margin: 0 auto;
+        width: 650px;
+    }
+    
 
     .form-container {
         text-align: left;
@@ -386,19 +423,16 @@ footer div p {
         display: inline-block;
     }
 
-
-    .label-div {
-        margin: 0 auto;
-        clear: both;
-        width: 100px;
+    #contact-details {
+        text-align: center;
+        margin-bottom: 10px;
     }
 
-    .input-div {
-        margin: 0 auto;
-        clear: both;
-        width: 200px;
+    footer {
+        height: 200px;
     }
-}
+}  
+
 
 @media screen and (max-width: 320px) {
         #title {
@@ -423,55 +457,7 @@ footer div p {
     }
 }
 
-@media screen and (min-width: 989px) {
 
-
-    #home-text-1 {
-        margin-left: 60px;
-        margin-right: 40px;
-        float: left;
-    }
-
-    #home-text-2 {
-        margin-left: 60px;
-        margin-right: 60px;
-        float: left;
-    }
-
-    #home-page {
-        margin-bottom: 80px;
-    }
-    
-
-    .contact-container,
-    .opening-container,
-    .social-container {
-    padding: 10px;
-    margin: 10px;
-    font-size: 5px;
-    display: inline-block;
-    text-align: center;
-   
-}
-   .container-fluid {
-    margin-bottom: 220px;
-   }
-   
-    .input-div {
-        margin: 0 auto;
-        width: 650px;
-    }
-
-    #contact-details {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    footer {
-    height: 200px;
-}
-
-}
 
 @media screen and (max-width: 768px) {
 
