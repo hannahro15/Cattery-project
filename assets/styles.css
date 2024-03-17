@@ -244,7 +244,7 @@ button {
 
 footer {
     display: flex;
-    background-color: darkgrey;
+    background-color: lightgoldenrodyellow;
     height: 360px;
     width: 100%;
     position: fixed;
@@ -268,6 +268,7 @@ footer div p {
 
 #copyright {
     width: 100%;
+    padding: 10px;
 }
 
 h3 {
@@ -381,16 +382,6 @@ h3 {
     #services-content li {
         margin-top: 20px;
     }
-        
-    .contact-container,
-    .opening-container,
-    .social-container {
-        padding: 5px;
-        margin-bottom: 5px;
-        font-size: 5px;
-        text-align: center;
-       
-    }
 
     .container-fluid {
         margin-bottom: 220px;
@@ -444,8 +435,14 @@ h3 {
         .form-details{
             display : block;
         }
+
+        .footer-container {
+            width: 100%;
+            height: 350px;
+        }
+        
         footer div p {
-            font-size: 8px;
+            font-size: 12px;
         }
 }
 
