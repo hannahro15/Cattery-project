@@ -33,6 +33,10 @@ body {
     padding: 10px;
 }
 
+.header {
+    display: flex;
+}
+
 /*-------------------logo----------*/
 
 #logo {
