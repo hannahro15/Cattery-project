@@ -48,3 +48,24 @@ Contact Page
 [Mobile view](wireframes/Contact-mobile.png)
 
 [Desktop view](wireframes/Contact-desktop.png)
+
+## Credits
+
+### Content and Media
+
+Help with documentation for any code was from the [https://getbootstrap.com/docs/5.3/getting-started/introduction/] and 
+[https://www.w3schools.com/] websites. 
+
+The colour I chose for the footer was from [https://rgbcolorcode.com/].
+
+The icons in the footer used were from [https://fontawesome.com/icons].
+
+The photos across the website including the gallery was from [https://www.pexels.com/].
+
+Markdown help from the Readme me was from [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links]
+
+Also assistance from the slack community, tutor support and my mentor on Code Institute, and also tutorials/mentoring from the City of Bristol College.
+
+
+
+
