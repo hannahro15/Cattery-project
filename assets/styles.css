@@ -8,6 +8,7 @@ h1 {
     margin-left: 45px;
     text-transform: uppercase; 
     width: 100%; 
+    text-align: center;
      
 }
 
@@ -20,7 +21,6 @@ body {
 
 #large-home-image {
     width: 100%;
-    padding: 5px;
     margin: 0 auto;
 }
 
@@ -39,10 +39,6 @@ body {
     margin-top: 30px;
 }
 
-#logo-and-title {
-    margin: 0 auto;
-    display: block;
-}
 /*-------------------Navigation bar----------*/
 
 .nav-bar {
@@ -94,7 +90,7 @@ nav li {
 
 #home-page-image {
     height: 300px;
-    width: 150px;
+    width: 180px;
     margin: auto;
     display: block;
     border-radius: 15px;
@@ -302,6 +298,10 @@ h3 {
         padding: 20px;
     }
 
+    #logo-and-title {
+        margin: 0 auto;
+    }
+
      header {
         display: flex; 
          }
@@ -422,7 +422,6 @@ h3 {
         }
         #large-home-image {
             width: 100%;
-            margin-right: 0;
         }
 
         .form-details{
@@ -458,7 +457,6 @@ h3 {
 
     #title {
         margin-top: 80px;
-        text-align: center;
     }
 }
 
