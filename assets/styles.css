@@ -445,6 +445,9 @@ h3 {
     #large-home-image {
         width: 100%;
     }
+    .container-fluid {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 440px) {
