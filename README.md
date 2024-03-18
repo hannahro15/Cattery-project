@@ -66,6 +66,26 @@ Markdown help from the Readme me was from [https://github.com/adam-p/markdown-he
 
 Also assistance from the slack community, tutor support and my mentor on Code Institute, and also tutorials/mentoring from the City of Bristol College.
 
+## Deployment
 
+Optional:
+
+First of all if you are wanting to use the project, you first need to fork the respository using this link. [https://github.com/hannahro15/Cattery-project].
+
+Click on the green code button on the top right of the screen and copy this link [https://github.com/hannahro15/Cattery-project.git] and then do git clone followed by that link in your terminal to add it to your computer.
+
+Steps to deploy the website:
+
+Go to settings in [https://github.com/hannahro15/Cattery-project] and click on it.
+
+Then on the side bar on the next page click on 'pages'.
+
+After that, click on deploy from branch under the source tab.
+
+Under the branch tab below, select main branch(could be master intead), and to the right of it select where it says /root. 
+
+To the right of where the main/master branch were selected and '/root', then click save. 
+
+The website should now be working and the deployed website link is this [https://hannahro15.github.io/Cattery-project/].
 
 
