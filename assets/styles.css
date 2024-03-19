@@ -38,6 +38,10 @@ body {
 
 /*-------------------Navigation bar----------*/
 
+.navbar {
+   box-shadow: 10px 5px 5px lightgrey;
+}
+
 nav li {
     padding: 10px;
     font-weight: bold;
