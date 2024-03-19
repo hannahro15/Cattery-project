@@ -6,9 +6,7 @@ h1 {
     font-family: Roboto, Helvetica, sans-serif;
     font-weight: 700;
     text-transform: uppercase; 
-    width: 100%; 
-    text-align: center;
-     
+    width: 100%;     
 }
 
 /*---------------body-------*/
@@ -40,30 +38,19 @@ body {
 
 /*-------------------Navigation bar----------*/
 
-.nav-bar {
-    text-align: center;
-    background-color: rgb(85,85,85);
-    box-shadow: 10px 5px 5px rgb(151, 151, 151);
-}
-
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-
 nav li {
-    display: block;
     padding: 10px;
-    margin: 10px;
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0 auto;
 }
 
- 
-
+nav ul a {
+    color: white;
+}
 /*-------------------Home Page-----*/
 
 #home-page {
@@ -247,8 +234,8 @@ button {
 footer {
     display: flex;
     background-color: lightgoldenrodyellow;
-    height: 360px;
     width: 100%;
+    height: 360px;
     position: fixed;
     bottom: 0;
     text-align: center;
@@ -258,10 +245,9 @@ footer div p {
     font-size: 12px;
 }
 
-
- a {
-    font-size: 15px;
-    padding: 10px;
+i {
+    color: black;
+    padding: 5px;
 }
 
 .contact-container {
@@ -269,7 +255,6 @@ footer div p {
 }
 
 #copyright {
-    width: 100%;
     padding: 10px;
 }
 
@@ -420,7 +405,6 @@ h3 {
         text-align: center;
         margin-bottom: 400px;
     }
-
     footer {
         height: 200px;
     }
