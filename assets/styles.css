@@ -201,32 +201,35 @@ form {
     text-align: center;
 }
 
-#form-wrapper {
-    margin-bottom: 400px;
+#contact-us {
+    padding: 10px;
 }
 
-.form-container > div {
+
+#form-container {
+    border: 5px solid black;
+    border-style: double;
+    padding: 20px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    
+}
+
+#form-container > div {
     padding: 10px;
     text-align: center;
 }
 
-.form-details {
-    font-weight: 400;
+
+.label-div, .input-div {
+    margin: 0 auto;
+    width: 200px;
 }
 
 input, textarea {
     display: block;
     margin: 0 auto;
-}
-
-.label-div {
-    margin: 0 auto;
-    width: 100px;
-}
-
-.input-div {
-    margin: 0 auto;
-    width: 200px;
 }
 
 #submit {
@@ -396,12 +399,12 @@ h3 {
     .label-div {
         margin: 0 auto;
         clear: both;
-        width: 100px;
+        width: 100%;
     }
        
     .input-div {
-        margin: 0 auto;
         width: 650px;
+        margin: 0 auto;
     }
     
 
