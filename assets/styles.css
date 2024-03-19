@@ -42,19 +42,13 @@ body {
 
 .nav-bar {
     text-align: center;
-    background-color: lightgoldenrodyellow;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    background-color: rgb(85,85,85);
 }
 
 
 a {
     text-decoration: none;
-    color: black;
-}
-
-nav ul {
-    margin: 10px;
+    color: white;
 }
 
 
