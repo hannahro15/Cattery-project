@@ -42,6 +42,9 @@ body {
 
 .nav-bar {
     text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 
@@ -50,15 +53,21 @@ a {
     color: black;
 }
 
+nav ul {
+    margin: 10px;
+}
+
 
 nav li {
     display: block;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
 }
+
+ 
 
 /*-------------------Home Page-----*/
 
@@ -308,7 +317,7 @@ h3 {
 
      header {
         display: flex; 
-         }
+     }
 
      #home-title {
         padding: 20px;
