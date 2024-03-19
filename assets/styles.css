@@ -5,7 +5,6 @@
 h1 {
     font-family: Roboto, Helvetica, sans-serif;
     font-weight: 700;
-    margin-left: 45px;
     text-transform: uppercase; 
     width: 100%; 
     text-align: center;
@@ -168,12 +167,17 @@ nav li {
  .img-fluid {
     height: 200px;
     width: 300px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 15px;
  }
 
  .container-fluid {
     margin-bottom: 300px;
+ }
+
+ .container-fluid > img {
+    align-content: center;
+    text-align: center;
  }
 
 .col {
@@ -458,6 +462,10 @@ h3 {
     #title {
         margin-top: 80px;
     }
+    .container-fluid > div {
+        align-content: center;
+        text-align: center;
+     }
 }
 
 
