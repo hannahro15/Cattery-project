@@ -10,11 +10,6 @@ h1 {
     text-align: center;  
 }
 
-/*---------------body-------*/
-body {
-    margin: 0 auto;
-}
-
 /*-------------------header----------*/
 
 #large-home-image {
@@ -358,10 +353,7 @@ h3 {
         #title {
             text-align: center;
         }
-        #large-home-image {
-            width: 100%;
-        }
-
+       
         .container-fluid {
             margin-bottom: 350px;
         }
@@ -376,9 +368,6 @@ h3 {
 }
 
 @media screen and (max-width: 380px) {
-    #large-home-image {
-        width: 100%;
-    }
     .container-fluid {
         margin: 0 auto;
     }
