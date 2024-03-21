@@ -6,7 +6,8 @@ h1 {
     font-family: Roboto, Helvetica, sans-serif;
     font-weight: 700;
     text-transform: uppercase; 
-    width: 100%;     
+    width: 100%;   
+    text-align: center;  
 }
 
 /*---------------body-------*/
@@ -69,32 +70,22 @@ nav ul a {
     text-align: center;
 }
 
-.home-text-1 {
-    font-size: 30px;
-    text-align: center;
-}
-
-.home-text-2 {
-    font-size: 30px;
-    padding: 20px;
-    margin-bottom: 200px;
-    text-align: justify;
-}
-
-
 #home-page-image {
     height: 300px;
     width: 180px;
-    margin: auto;
+    margin: 0 auto;
     display: block;
-    border-radius: 15px;
-    
+    border-radius: 15px;   
 }
 
-#home-wrapper-text {
-    margin-bottom: 250px;
+#home-text-1, #home-text-2 {
+    font-size: 20px;
+    padding: 20px;
 }
 
+#home-text-2 {
+    margin-bottom: 350px;
+}
 
 /*---------------------About and Services Page --------*/
 
@@ -113,7 +104,6 @@ nav ul a {
     width: 20rem;
     padding: 20px;
 }
-
 
 #about-content {
     font-size: 1rem;
@@ -145,12 +135,6 @@ nav ul a {
     margin-bottom: 250px;
 }
 
-#thank-you {
-    font-size: 1rem;
-    padding: 20px;
-}
-
-
 /*-------------------Gallery----------*/
 
  #gallery {
@@ -170,18 +154,6 @@ nav ul a {
     margin-bottom: 300px;
  }
 
- .container-fluid > img {
-    align-content: center;
-    text-align: center;
- }
-
-.col {
-   justify-content: center;
-   margin: 10px 0 10px 0;
-}
-
-
-
 /*-------------------Contact----------*/
 form {
     text-align: center;
@@ -191,22 +163,19 @@ form {
     padding: 10px;
 }
 
-
 #form-container {
     border: 2px solid black;
     padding: 20px;
     margin: 10px;
     background-color: green;
     box-shadow: 10px 5px 5px grey;
-    color: white;
-    
+    color: white;   
 }
 
 #form-container > div {
     padding: 10px;
     text-align: center;
 }
-
 
 .label-div, .input-div {
     margin: 0 auto;
@@ -279,11 +248,10 @@ h3 {
     nav li {
         display: inline-block;
    }
-
 }
 
 @media screen and (min-width: 768px) {
-    #logo {
+     #logo {
         width: 8rem;
         height: 8rem;
         margin-top: 30px;
@@ -291,14 +259,14 @@ h3 {
         padding: 20px; 
     }
 
-    h1 {
+     h1 {
         text-align: center;
         font-size: 60px;
         margin-top: 35px;
         padding: 20px;
     }
 
-    #logo-and-title {
+     #logo-and-title {
         margin: 0 auto;
     }
 
@@ -313,10 +281,6 @@ h3 {
         text-align: center;
      }
         
-     #home-wrapper-text {
-        display: inline-block;
-     }
-        
      #home-page-image {
         width: 250px;
         height: 400px;
@@ -324,23 +288,22 @@ h3 {
         text-align: center;
      }    
 
-    #home-text-1 {
+     #home-text-1, #home-text-2 {
         margin-left: 60px;
         margin-right: 40px;
         float: left;
+        font-size: 30px;
      }
     
-    #home-text-2 {
-        margin-left: 60px;
-        margin-right: 60px;
-        float: left;
-     }
-    
-     #home-page {
-        margin-bottom: 80px;
+     #home-text-2 {
+        margin-bottom: 350px;
      }
 
-    #about-image {
+     #about-image {
+        float: left;
+     }
+
+     #about-image, #services-image {
         margin: 0 auto;
         height: 20rem;
         width: 20rem;
@@ -348,7 +311,7 @@ h3 {
         float: left;
      }
           
-    #about-content {
+     #about-content {
         font-size: 1rem;
         text-align: justify;
         margin-left: 40px;
@@ -356,19 +319,18 @@ h3 {
         margin-top: 20px;
     }
         
-    #services-title {
+    #about-title, #services-title {
         text-align: center;
         font-size: 40px;
         padding: 10px;
         text-decoration: underline;
-        margin-top: 270px;
     }
+
+     #services-title {
+        margin-top: 250px;
+     }
         
     #services-image {
-        margin: 0 auto;
-        height: 20rem;
-        width: 20rem;
-        padding: 20px;
         float: right;
     }
     
@@ -377,7 +339,7 @@ h3 {
     }
 
     .container-fluid {
-        margin-bottom: 350px;
+        margin-bottom: 250px;
     }
 
     .label-div {
@@ -391,17 +353,11 @@ h3 {
         margin: 0 auto;
     }
     
-
-    .form-container {
-        text-align: left;
-    }
-    
     input {
-        display: inline-block;
         width: 30%;
     }
 
-    textarea {
+    input, textarea {
         display: inline-block;
     }
 
@@ -466,17 +422,6 @@ h3 {
 
 
 @media screen and (max-width: 768px) {
-
-    #home-text-1 {
-        margin-left: 20px;
-        padding-top: 20px;
-    }
-
-    #home-text-2 {
-        margin-bottom: 400px;
-        margin-left: 20px;
-    }
-
     #about-image, #services-image {
         margin: 0 auto;
         display: block;
@@ -490,6 +435,5 @@ h3 {
         display: block;
         height: 300px;
     }
-
 }
 
