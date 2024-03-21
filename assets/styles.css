@@ -29,12 +29,14 @@ h1 {
 
 /*-------------------Navigation bar----------*/
 
-.navbar {
-   box-shadow: 10px 5px 5px lightgrey;
+nav {
+   box-shadow: 10px 5px 5px #808080;
+   margin: 0 auto;
+   background-color: #555555;
 }
 
 nav li {
-    padding: 10px;
+    padding: 15px;
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
@@ -45,7 +47,15 @@ nav li {
 
 nav ul a {
     color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
 }
+
+ nav li {
+   text-align: center;
+ }
+
 /*-------------------Home Page-----*/
 
 #home-title {
@@ -251,6 +261,10 @@ h3 {
 
      header {
         display: flex; 
+     }
+
+     nav ul {
+        text-align: center;
      }
 
      #home-title {
