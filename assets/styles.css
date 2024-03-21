@@ -22,11 +22,6 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    display: block;
-}
-
-
 /*-------------------logo----------*/
 
 #logo {
@@ -57,11 +52,6 @@ nav ul a {
     color: white;
 }
 /*-------------------Home Page-----*/
-
-#home-page {
-    margin: 0 auto;
-    margin-bottom: 300px;
-}
 
 #home-title {
     padding: 20px;
@@ -239,10 +229,6 @@ h3 {
 
 
 @media screen and (min-width: 619px) {
-    #header-image {
-        width: 100%;
-        padding: 10px;
-    }
     nav li {
         display: inline-block;
    }
@@ -374,10 +360,6 @@ h3 {
         }
         #large-home-image {
             width: 100%;
-        }
-
-        .form-details{
-            display : block;
         }
 
         .container-fluid {
