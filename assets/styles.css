@@ -220,7 +220,7 @@ footer {
 }
 
 footer div p {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 i {
@@ -238,6 +238,8 @@ i {
 
 h3 {
     font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
@@ -356,6 +358,7 @@ h3 {
     }
     footer {
         height: 200px;
+        font-size: 20px;
     }
 }  
 
@@ -367,6 +370,7 @@ h3 {
 
         .footer-container {
             height: 350px;
+            font-size: 12px;
         }
         
         footer div p {
@@ -410,7 +414,21 @@ h3 {
 
     footer {
         display: block;
-        height: 300px;
+        height: 390px;
+    }
+    .contact-container {
+        margin-top: 20px;
     }
 }
 
+@media screen and (max-width: 280px) {
+    footer h3 {
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
