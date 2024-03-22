@@ -63,8 +63,23 @@ This first milestone 1 project is a website for a fake cattery business called '
 
 # Testing
 
-* For testing HTML I use the [HTML validator website]("https://validator.w3.org/").
-* For testing CSS I use the [CSS validator website](https://jigsaw.w3.org/css-validator/").
+## HTML and CSS Validator
+
+* For testing HTML I used the [HTML validator website]("https://validator.w3.org/") for each page.
+### Home Page - index.html
+![Screenshot]("assets/testingimages/Screenshot-home-page.png")
+### About and Services Page
+![Screenshot]("assets/testingimages/Screenshot-about+services.png")
+### Gallery Page
+![Screenshot]("assets/testingimages/Screenshot-gallery.png")
+### Contact Page
+![Screenshot]("assets/testingimages/Screenshot-contact-page.png")
+### Thank you Page
+![Screenshot]("assets/testingimages/Screenshot-thankyou.png")
+
+* For testing CSS I used the [CSS validator website]("https://jigsaw.w3.org/css-validator/").
+
+![Screenshot]("assets/testingimages/Screenshot-CSS-validation.png")
 
 ## Bugs
    
