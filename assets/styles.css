@@ -20,11 +20,9 @@ h1 {
 /*-------------------logo----------*/
 
 #logo {
-    width: 5rem;
-    height: 5rem;
+    width: 15px;
+    height: 15px;
     padding: 5px; 
-    margin: 0 auto;
-    margin-top: 30px;
 }
 
 /*-------------------Navigation bar----------*/
@@ -247,23 +245,14 @@ h3 {
 
 
 @media screen and (min-width: 768px) {
-     #logo {
-        width: 8rem;
-        height: 8rem;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        padding: 20px; 
+     #logo-and-title {
+        margin: 0 auto;
     }
 
      h1 {
         text-align: center;
         font-size: 60px;
-        margin-top: 35px;
         padding: 20px;
-    }
-
-     #logo-and-title {
-        margin: 0 auto;
     }
 
      header {
@@ -364,10 +353,6 @@ h3 {
 
 
 @media screen and (max-width: 320px) {
-        #title {
-            text-align: center;
-        }
-
         .footer-container {
             height: 350px;
             font-size: 12px;
@@ -389,9 +374,6 @@ h3 {
         display: block;
     }
 
-    #title {
-        margin-top: 80px;
-    }
     .container-fluid > div {
         align-content: center;
         text-align: center;
@@ -399,6 +381,12 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+
+    header > div {
+        text-align: center;
+        padding: 5px;
+    }
+
     #about-image, #services-image {
         margin: 0 auto;
         display: block;
