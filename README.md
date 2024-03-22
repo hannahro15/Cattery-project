@@ -63,8 +63,8 @@ This first milestone 1 project is a website for a fake cattery business called '
 
 # Testing
 
-* For testing HTML I use the HTML validator.[https://validator.w3.org/].
-* For testing CSS I use the CSS validator.[https://jigsaw.w3.org/css-validator/]
+* For testing HTML I use the [HTML validator website]("https://validator.w3.org/").
+* For testing CSS I use the [CSS validator website](https://jigsaw.w3.org/css-validator/").
 
 ## Bugs
    
@@ -76,22 +76,25 @@ This first milestone 1 project is a website for a fake cattery business called '
 
 ## Content
 
-* Help with documentation for any code was from the [https://getbootstrap.com/docs/5.3/getting-started/introduction/] and 
-[https://www.w3schools.com/] websites. 
+* Help with documentation for any code was from the [official Bootstrap website]("https://getbootstrap.com/docs/5.3/getting-started/introduction/") and [W3 schools]("https://www.w3schools.com/") websites. 
 
-* The colour I chose for the footer was from [https://rgbcolorcode.com/].
+* Code I used/altered for the submit button was from the second snippet of code from this [Stack Overflow Page]("https://stackoverflow.com/questions/34821728/how-can-i-make-a-button-link-to-another-page"). I had to alter it based on the html validator results.
 
-* The icons in the footer used were from [https://fontawesome.com/icons].
+* The colour I chose for the footer was from [the rgb color code website]("https://rgbcolorcode.com/").
 
-* Markdown help for the Readme was from [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links]
+* The icons in the footer used were from [FontAwesome]("https://fontawesome.com/icons").
+
+* Markdown help for the Readme was from [this github repo]("https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links").
+
+* For removing some unused css I used the [Unused css website]("https://unused-css.com/").
 
 ## Media
 
-* The photos of the cats across the website including the gallery page was from [https://www.pexels.com/].
+* The photos of the cats across the website including the gallery page was from [Pexels]("https://www.pexels.com/").
 
-* For converting images to webp I used this website.[https://pixelied.com/convert/jpg-converter/jpg-to-webp]
+* For converting images to webp I used a website called [Pixelied]("https://pixelied.com/convert/jpg-converter/jpg-to-webp").
 
-* For compressing images I used the [https://tinypng.com/] website.
+* For compressing images I used the [Tinypng]("https://tinypng.com/") website.
 
 Also thank you in general for the wonderful assistance from the slack community, tutor support and my mentor on Code Institute, and also tutorials/mentoring from the City of Bristol College.
 
@@ -99,13 +102,13 @@ Also thank you in general for the wonderful assistance from the slack community,
 
 ## Optional:
 
-First of all if you are wanting to use the project, you first need to fork the respository using this link. [https://github.com/hannahro15/Cattery-project].
+First of all if you are wanting to use the project, you first need to fork [my repository]("https://github.com/hannahro15/Cattery-project") of the project.
 
-Click on the green code button on the top right of the screen and copy this link [https://github.com/hannahro15/Cattery-project.git] and then do git clone followed by that link in your terminal to add it to your computer.
+Click on the green code button on the top right of the screen and copy this [link to clone]("https://github.com/hannahro15/Cattery-project.git") and then do git clone followed by that link in your terminal to add it to your computer.
 
 ## Steps to deploy the website:
 
-Go to settings in [https://github.com/hannahro15/Cattery-project] and click on it.
+Go to settings in [my repository]("https://github.com/hannahro15/Cattery-project").
 
 Then on the side bar on the next page click on 'pages'.
 
@@ -115,6 +118,6 @@ Under the branch tab below, select main branch(could be master intead), and to t
 
 To the right of where the main/master branch were selected and '/root', then click save. 
 
-The website should now be working and the deployed website link is this [https://hannahro15.github.io/Cattery-project/].
+The website should now be working and this is the [link to the deployed site]("https://hannahro15.github.io/Cattery-project/").
 
 
