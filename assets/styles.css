@@ -64,8 +64,8 @@ nav ul a {
 }
 
 #home-page-image {
-    height: 300px;
-    width: 180px;
+    height: 275px;
+    width: 183px;
     margin: 0 auto;
     display: block;
     border-radius: 15px;   
@@ -275,8 +275,8 @@ h3 {
      }
         
      #home-page-image {
-        width: 250px;
-        height: 400px;
+        width: 260px;
+        height: 390px;
         padding: 10px;
         text-align: center;
      }    
