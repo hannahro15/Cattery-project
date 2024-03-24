@@ -4,10 +4,7 @@
 
 h1 {
     font-family: Roboto, Helvetica, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase; 
-    width: 100%;   
-    text-align: center;  
+    font-weight: 700;  
 }
 
 /*-------------------header----------*/
@@ -25,6 +22,10 @@ h1 {
     padding: 5px; 
 }
 
+#logo-and-title {
+    padding: 10px;
+}
+
 /*-------------------Navigation bar----------*/
 
 nav {
@@ -37,22 +38,14 @@ nav li {
     padding: 15px;
     font-weight: bold;
     font-size: 15px;
-    text-transform: uppercase;
     list-style-type: none;
-    text-decoration: none;
     margin: 0 auto;
 }
 
 nav ul a {
     color: white;
-    text-align: center;
     padding: 20px;
-    text-decoration: none;
 }
-
- nav li {
-   text-align: center;
- }
 
 /*-------------------Home Page-----*/
 
@@ -83,15 +76,16 @@ nav ul a {
 /*---------------------About and Services Page --------*/
 
 
-#about-title {
+#about-title, #services-title {
     font-size: 40px;
-    text-decoration: underline;
-    margin-top: 60px;
     padding: 10px;
-    text-align: center;
 }
 
-#about-image {
+#about-title {
+    margin-top: 60px;
+}
+
+#about-image, #services-image {
     margin: 0 auto;
     height: 20rem;
     width: 20rem;
@@ -100,28 +94,12 @@ nav ul a {
 
 #about-content {
     font-size: 1rem;
-    text-align: justify;
-    padding: 20px;
-}
-
-#services-title {
-    text-align: center;
-    font-size: 40px;
     padding: 10px;
-    text-decoration: underline;
-}
-
-#services-image {
-    margin: 0 auto;
-    height: 20rem;
-    width: 20rem;
-    padding: 20px;
 }
 
 #services-content li {
    padding: 5px;
    font-size: 1rem;
-   text-align: justify;
 }
 
 #services-content {
@@ -169,14 +147,11 @@ form {
 .label-div, .input-div {
     margin: 0 auto;
     padding: 5px;
+    width: 100%;
 }
 
 input, textarea {
     display: inline-block;
-}
-
-.input-div {
-    width: 50%;
 }
 
  form > div {
@@ -187,6 +162,10 @@ input, textarea {
     display: block;
     margin: 0 auto;
     width: 100%;
+}
+
+.input-div {
+    width: 70%;
 }
 
 #contact-details {
@@ -338,7 +317,10 @@ h3 {
     .label-div {
         margin: 0 auto;
         clear: both;
-        width: 100%;
+    }
+
+    .input-div {
+        width: 50%;
     }
 
     #contact-details {
@@ -373,11 +355,6 @@ h3 {
     #logo-and-title {
         display: block;
     }
-
-    .container-fluid > div {
-        align-content: center;
-        text-align: center;
-     }
 }
 
 @media screen and (max-width: 768px) {
@@ -413,7 +390,6 @@ h3 {
     footer h3 {
         font-size: 15px;
         font-weight: bold;
-        text-transform: uppercase;
     }
 
     footer p {
