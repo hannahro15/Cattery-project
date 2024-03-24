@@ -1,10 +1,8 @@
-
-
 /*------------------head-----------*/
 
 h1 {
     font-family: Roboto, Helvetica, sans-serif;
-    font-weight: 700;  
+    font-weight: 700;
 }
 
 /*-------------------header----------*/
@@ -19,7 +17,7 @@ h1 {
 #logo {
     width: 15px;
     height: 15px;
-    padding: 5px; 
+    padding: 5px;
 }
 
 #logo-and-title {
@@ -29,9 +27,9 @@ h1 {
 /*-------------------Navigation bar----------*/
 
 nav {
-   box-shadow: 10px 5px 5px #808080;
-   margin: 0 auto;
-   background-color: #555555;
+    box-shadow: 10px 5px 5px #808080;
+    margin: 0 auto;
+    background-color: #555555;
 }
 
 nav li {
@@ -61,10 +59,11 @@ nav ul a {
     width: 183px;
     margin: 0 auto;
     display: block;
-    border-radius: 15px;   
+    border-radius: 15px;
 }
 
-#home-text-1, #home-text-2 {
+#home-text-1,
+#home-text-2 {
     font-size: 20px;
     padding: 20px;
 }
@@ -75,8 +74,8 @@ nav ul a {
 
 /*---------------------About and Services Page --------*/
 
-
-#about-title, #services-title {
+#about-title,
+#services-title {
     font-size: 40px;
     padding: 10px;
 }
@@ -85,7 +84,8 @@ nav ul a {
     margin-top: 60px;
 }
 
-#about-image, #services-image {
+#about-image,
+#services-image {
     margin: 0 auto;
     height: 20rem;
     width: 20rem;
@@ -98,8 +98,8 @@ nav ul a {
 }
 
 #services-content li {
-   padding: 5px;
-   font-size: 1rem;
+    padding: 5px;
+    font-size: 1rem;
 }
 
 #services-content {
@@ -108,22 +108,22 @@ nav ul a {
 
 /*-------------------Gallery----------*/
 
- #gallery {
+#gallery {
     text-align: center;
     text-decoration: underline;
     padding: 10px;
- }
+}
 
- .img-fluid {
+.img-fluid {
     height: 200px;
     width: 300px;
     padding: 10px;
     border-radius: 15px;
- }
+}
 
- .container-fluid {
+.container-fluid {
     margin-bottom: 520px;
- }
+}
 
 /*-------------------Contact----------*/
 form {
@@ -136,29 +136,32 @@ form {
 
 #form-container {
     border: 2px double black;
-    box-shadow: 10px 5px 5px grey;  
-    background-color:green;
+    box-shadow: 10px 5px 5px grey;
+    background-color: green;
     width: 90%;
     margin: 0 auto;
     padding: 10px;
     color: white;
 }
 
-.label-div, .input-div {
+.label-div,
+.input-div {
     margin: 0 auto;
     padding: 5px;
     width: 100%;
 }
 
-input, textarea {
+input,
+textarea {
     display: inline-block;
 }
 
- form > div {
+form > div {
     text-align: center;
 }
 
-input, textarea {
+input,
+textarea {
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -219,93 +222,94 @@ h3 {
     text-transform: uppercase;
 }
 
-
 /*-------------------Media Queries----------*/
 
-
 @media screen and (min-width: 768px) {
-     #logo-and-title {
+    #logo-and-title {
         margin: 0 auto;
     }
 
-     h1 {
+    h1 {
         text-align: center;
         font-size: 60px;
         padding: 20px;
     }
 
-     header {
-        display: flex; 
-     }
+    header {
+        display: flex;
+    }
 
-     nav ul {
+    nav ul {
         text-align: center;
-     }
+    }
 
-     nav li {
+    nav li {
         display: inline-block;
     }
 
-     #home-title {
+    #home-title {
         padding: 20px;
         font-size: 40px;
         margin: 0 auto;
         text-align: center;
-     }
-        
-     #home-page-image {
+    }
+
+    #home-page-image {
         width: 253px;
         height: 380px;
         padding: 10px;
         text-align: center;
-     }    
+    }
 
-     #home-text-1, #home-text-2 {
+    #home-text-1,
+    #home-text-2 {
         margin-left: 60px;
         margin-right: 40px;
         float: left;
         font-size: 30px;
-     }
-    
-     #home-text-2 {
+    }
+
+    #home-text-2 {
         margin-bottom: 380px;
-     }
+    }
 
-     #about-image {
+    #about-image {
         float: left;
-     }
+    }
 
-     #about-image, #services-image {
+    #about-image,
+    #services-image {
         margin: 0 auto;
         height: 20rem;
         width: 20rem;
         padding: 20px;
         float: left;
-     }
-          
-     #about-content {
+    }
+
+    #about-content {
         font-size: 1rem;
         text-align: justify;
         margin-left: 40px;
         margin-right: 40px;
         margin-top: 20px;
     }
-        
-    #about-title, #services-title {
+
+    #about-title,
+    #services-title {
         text-align: center;
         font-size: 40px;
         padding: 10px;
         text-decoration: underline;
     }
 
-     #services-title {
+    #services-title {
         margin-top: 250px;
-     }
-        
+    }
+
     #services-image {
         float: right;
     }
-    
+
     #services-content li {
         margin-top: 20px;
     }
@@ -331,18 +335,17 @@ h3 {
         height: 200px;
         font-size: 20px;
     }
-}  
-
+}
 
 @media screen and (max-width: 320px) {
-        .footer-container {
-            height: 350px;
-            font-size: 12px;
-        }
-        
-        footer div p {
-            font-size: 12px;
-        }
+    .footer-container {
+        height: 350px;
+        font-size: 12px;
+    }
+
+    footer div p {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 380px) {
@@ -358,13 +361,13 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-
     header > div {
         text-align: center;
         padding: 5px;
     }
 
-    #about-image, #services-image {
+    #about-image,
+    #services-image {
         margin: 0 auto;
         display: block;
     }
