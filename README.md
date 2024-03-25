@@ -51,7 +51,39 @@ This first milestone 1 project is a website for a fake cattery business called '
 
 # Features
 
+## Header
 
+The header features a logo that I designed on canva and the title to the right of it. In small screens the logo is positioned on top of the title. There is a header image too taking up the whole width but that is only on the home page.
+
+## Navbar 
+
+The Navigation Bar has four links which are 'Home', 'About and Services', 'Gallery' and 'Contact' On small screens such as mobile devices the links are positioned underneath one another, and for larger screens for tablets and laptops the links are all positioned in a row spaced out. 
+
+## Home Page
+
+This page features a photo and some basic information and introduction about the cattery itself underneath it. The header image is only featured on this page which I mentioned above.
+
+## About and Services Page
+
+This is a page about the cattery itself and the services that it provides along with a couple of photos too. 
+
+## Gallery Page
+
+This is a page of lots of images of cats that have visited the cattery. 
+
+## Contact Page
+
+This page has a contact form where if you want to enquire about your cat/s visit or stay you can do so by filling out the form. If you click on the submit button on the form it takes you to a separate thank-you page which information when you will hear back after filling in the form. Some of the form elements have the 'required' elements meaning that you can't leave those elements blank. Also there are some basic contact details on udnerneath the form as well.
+
+## Thank-you Page
+
+This isn't an official page that is on the Navigation Bar. This is the page that it takes you to when you click on the submit button on the contact form page.
+
+# Fonts/Typography and colors
+
+I have used a Roboto font for the title, with a back up of Helvetica, then sans-serif. The rest of the text is just as it comes.
+
+For the colours there are four main colours across the website. For all the text I have used a black text. I have used a dark grey colour for the navigation bar. For the footer I have used a light/pale yellow colour. The background is a white background. I wanted to keep it simple to improve user experience. Any other colours used across the website are just on the photos/header image across the website.
 
 # Testing
 
