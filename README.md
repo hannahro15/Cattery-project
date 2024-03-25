@@ -29,27 +29,19 @@ This first milestone 1 project is a website for a fake cattery business called '
 
 ### Home Page 
 
-[Mobile view](wireframes/Home-mobile.png)
-
-[Desktop view](wireframes/Home-desktop.png)
+![Screenshots](documentation/wireframes/home-page.png)
 
 ### About and Services Page
 
-[Mobile view](wireframes/Aboutandservices-mobile.png)
-
-[Desktop view](wireframes/Aboutandservices-desktop.png)
+![Screenshots](documentation/wireframes/about+services.png)
 
 ### Gallery Page
 
-[Mobile view](wireframes/Gallery-mobile.png)
-
-[Desktop view](wireframes/Gallery-desktop.png)
+![Screenshots](documentation/wireframes/gallery.png)
 
 ### Contact Page
 
-[Mobile view](wireframes/Contact-mobile.png)
-
-[Desktop view](wireframes/Contact-desktop.png)
+![Screenshots](documentation/wireframes/contact.png)
 
 # Languages and Frameworks used
 
@@ -67,19 +59,19 @@ This first milestone 1 project is a website for a fake cattery business called '
 
 * For testing HTML I used the [HTML validator website]("https://validator.w3.org/") for each page.
 ### Home Page - index.html
-![Screenshot]("assets/testingimages/Screenshot-home-page.png")
+![Screenshot](documentation/screenshots/screenshot-home-page.png)
 ### About and Services Page
-![Screenshot]("assets/testingimages/Screenshot-about+services.png")
+![Screenshot](documentation/screenshots/screenshot-about+services.png)
 ### Gallery Page
-![Screenshot]("assets/testingimages/Screenshot-gallery.png")
+![Screenshot](documentation/screenshots/screenshot-gallery.png)
 ### Contact Page
-![Screenshot]("assets/testingimages/Screenshot-contact-page.png")
+![Screenshot](documentation/screenshots/screenshot-contact-page.png)
 ### Thank you Page
-![Screenshot]("assets/testingimages/Screenshot-thankyou.png")
+![Screenshot](documentation/screenshots/screenshot-thankyou.png)
 
 * For testing CSS I used the [CSS validator website]("https://jigsaw.w3.org/css-validator/").
 
-![Screenshot]("assets/testingimages/Screenshot-CSS-validation.png")
+![Screenshot](documentation/screenshots/screenshot-CSS-validation.png)
 
 ## Bugs
    
