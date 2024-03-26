@@ -64,7 +64,7 @@ nav ul a {
 
 #home-text-1,
 #home-text-2 {
-    font-size: 20px;
+    font-size: 1rem;
     padding: 20px;
 }
 
@@ -267,7 +267,7 @@ h3 {
         margin-left: 60px;
         margin-right: 40px;
         float: left;
-        font-size: 30px;
+        font-size: 1.5rem;
     }
 
     #home-text-2 {
@@ -288,7 +288,7 @@ h3 {
     }
 
     #about-content {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: justify;
         margin-left: 40px;
         margin-right: 40px;
@@ -313,6 +313,7 @@ h3 {
 
     #services-content li {
         margin-top: 20px;
+        font-size: 1.5rem;
     }
 
     .container-fluid {
