@@ -69,11 +69,15 @@ This is a page about the cattery itself and the services that it provides along 
 
 ## Gallery Page
 
-This is a page of lots of images of cats that have visited the cattery. 
+This is a page of lots of images of cats that have visited the cattery. The photos were taken from [Pexels](www.pexels.com) website. This page was created using Bootstrap flexbox.
 
 ## Contact Page
 
 This page has a contact form where if you want to enquire about your cat/s visit or stay you can do so by filling out the form. If you click on the submit button on the form it takes you to a separate thank-you page which information when you will hear back after filling in the form. Some of the form elements have the 'required' elements meaning that you can't leave those elements blank. Also there are some basic contact details on udnerneath the form as well.
+
+## Footer 
+
+The footer contains information on opening times, contact details, social media links. Also a copyright link at the bottom as well. On mobile and tablet devices the information is displayed in a block, but and larger size screens such as laptops the sections are spaced out in 3 columns. 
 
 ## Thank-you Page
 
