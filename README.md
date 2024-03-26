@@ -21,6 +21,8 @@ This first milestone 1 project is a website for a fake cattery business called '
 
 * As a user they should be able to see pictures of lots of cats on the gallery page.
 
+* Users should be able to fill out details on the form and when clicking on the submit button to take you to 'thank you' page.
+
 * As a user they should expect the website to be responsive and for everything to be seen clearly on different size screens such as mobile, tablet, and desktop.
 
 * The user expects the website to run smoothly without error messages and the images to load without any issues.
@@ -109,11 +111,45 @@ For the colours there are four main colours across the website. For all the text
 
 ![Screenshot](documentation/screenshots/screenshot-CSS-validation.png)
 
+## Manual testing
+
+* The user should be able to find out the purpose of the website and what it is about.
+    * I can confirm this information is clear on the website what it is about and its purpose.
+
+* The user should be able to find out information about the cattery itself and the services that it provides.
+    * I can confirm this information can be found on the 'About and Services Page'.
+
+* The user should be able to navigate between different links on the nav bar and across the website easily and take you to the correct page.
+    * I can confirm when clicking on all the links it takes you to the correct page and the website is easy to navigate.
+
+* As a user they should be able to easily find opening hours, contact and address information on the website.
+    * I can confirm that this information can be found on the footer on all pages of the website.
+
+* When a user clicks on the social media links, it should open up in a new tab in the correct platform.
+    * I can confirm when I click on all the social media links on the footer on all pages it opens up in a new tab in the correct platform.
+
+* As a user they should be able to see pictures of lots of cats on the gallery page.
+    * On the gallery page I can confirm there are pictures of lots of cats on the gallery page.
+
+* Users should be able to fill out details on the form and when clicking on the submit button to take you to 'thank you' page in an new tab.
+    * I can confirm details can be entered on the contact form and when submitting it takes you to a separate thank you page in a new tab.
+
+* As a user they should expect the website to be responsive and for everything to be seen clearly on different size screens such as mobile, tablet, and desktop.
+    * I have tested this in dev tools and I can confirm my website is responsive across all different devices and screen sizes.
+
+* The user expects the website to run smoothly without error messages and the images to load without any issues.
+    * I can confirm there are no error messages on the website, and the images load on all pages, even with a slight delay, on all pages of the website.
+
 ## Bugs
    
-* Centering elements and layout issues on the web pages for different screen sizes due to responsiveness.
-* Submit button opening up in separate thank you page even when form hasn't been filled in.
+### Solved Bugs
+* Centering elements and layout issues on the web pages for different screen sizes due to responsiveness 
+
+### Unsolved
+* Submit button opening up in separate thank you page even when form hasn't been filled in when clicked.
 * With images being compressed before and after converting them to WebP, performance is still quite low on some pages on  some screen sizes when running Google Lighthouse. 
+* Aspect ratio and low resolution issues for images when running Google Lighthouse.
+* Layout shift issues when running Google Lighthouse.
 
 # Credits
 
