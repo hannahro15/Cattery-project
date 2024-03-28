@@ -15,81 +15,95 @@
         <!--Header-->
         <header>
             <div id="logo-and-title" class="d-md-flex flex-row justify-content-md-around align-items-md-center">
-                <div><img src="assets/images/catterylogo.png" alt="Cattery Logo"></div>
-                <div id="title" class="text-uppercase"><h1>The Manchester Cattery</h1></div>
+                <div>
+                    <img src="assets/images/catterylogo.png" alt="Cattery Logo">
+                </div>
+                <div id="title" class="text-uppercase">
+                    <h1>The Manchester Cattery</h1>
+                </div>
             </div>
         </header>
-        
+
         <!--Navigation Bar-->
         <nav>
             <ul class="text-center">
-                <li class="text-uppercase"><a href="index.html" class="text-center text-decoration-none">Home</a></li>
-                <li class="text-uppercase"><a href="about_services.html" class="text-center text-decoration-none">About + Services</a></li>
-                <li class="text-uppercase"><a href="gallery.html" class="text-center text-decoration-none">Gallery</a></li>
-                <li class="text-uppercase"><a href="contact.html" class="text-center text-decoration-none">Contact</a></li>
+                <li class="text-uppercase">
+                    <a href="index.html" class="text-center text-decoration-none">Home</a>
+                </li>
+                <li class="text-uppercase">
+                    <a href="about_services.html" class="text-center text-decoration-none">About + Services</a>
+                </li>
+                <li class="text-uppercase">
+                    <a href="gallery.html" class="text-center text-decoration-none">Gallery</a>
+                </li>
+                <li class="text-uppercase">
+                    <a href="contact.html" class="text-center text-decoration-none">Contact</a>
+                </li>
             </ul>
         </nav>
 
         <!--Contact Form-->
-        <form action="thankyou.html" target="_blank">
-            <div id="form-container">
-                <h2 id="contact-us">Contact Us!</h2>
-                <div id="first-name">
-                    <div class="label-div">
-                        <label for="firstname">First Name: </label>
+        <main>
+            <form action="thankyou.html" target="_blank">
+                <div id="form-container">
+                    <h2 id="contact-us">Contact Us!</h2>
+                    <div id="first-name">
+                        <div class="label-div">
+                            <label for="firstname">First Name: </label>
+                        </div>
+                        <div class="input-div">
+                            <input type="text" id="firstname" name="firstname" autocomplete="given-name" required>
+                        </div>
                     </div>
-                    <div class="input-div">
-                        <input type="text" id="firstname" name="firstname" autocomplete="given-name" required>
+                    <div id="last-name">
+                        <div class="label-div">
+                            <label for="lastname">Last Name: </label>
+                        </div>
+                        <div class="input-div">
+                            <input type="text" id="lastname" name="lastname" autocomplete="family-name" required>
+                        </div>
+                    </div>
+                    <div id="phone-number">
+                        <div class="label-div">
+                            <label for="phone">Phone: </label>
+                        </div>
+                        <div class="input-div">
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    <div id="email-address">
+                        <div class="label-div">
+                            <label for="email">Email: </label>
+                        </div>
+                        <div class="input-div">
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div id="cat-name">
+                        <div class="label-div">
+                            <label for="catname">Name of cat/s: </label>
+                        </div>
+                        <div class="input-div">
+                            <input type="text" id="catname" name="catname" required>
+                        </div>
+                    </div>
+                    <div id="enquiry-message">
+                        <div class="label-div">
+                            <label for="enquiry">Enquiry: </label>
+                        </div>
+                        <div class="input-div">
+                            <textarea placeholder="Please write your enquiry here..." rows="6" id="enquiry" required></textarea>
+                        </div>
+                    </div>
+                    <div>
+                        <input class="btn btn-info btn-dark" type="submit">
                     </div>
                 </div>
-                <div id="last-name">
-                    <div class="label-div">
-                        <label for="lastname">Last Name: </label>
-                    </div>
-                    <div class="input-div">
-                        <input type="text" id="lastname" name="lastname" autocomplete="family-name" required>
-                    </div>
-                </div>
-                <div id="phone-number">
-                    <div class="label-div">
-                        <label for="phone">Phone: </label>
-                    </div>
-                    <div class="input-div">
-                        <input type="tel" id="phone" name="phone" required>
-                    </div>
-                </div>
-                <div id="email-address">
-                    <div class="label-div">
-                        <label for="email">Email: </label>
-                    </div>
-                    <div class="input-div">
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                </div>
-                <div id="cat-name">
-                    <div class="label-div">
-                        <label for="catname">Name of cat/s: </label>
-                    </div>
-                    <div class="input-div">
-                        <input type="text" id="catname" name="catname" required>
-                    </div>
-                </div>
-                <div id="enquiry-message">
-                    <div class="label-div">
-                        <label for="enquiry">Enquiry: </label>
-                    </div>
-                    <div class="input-div">
-                        <textarea placeholder="Please write your enquiry here..." rows="6" id="enquiry" required></textarea>
-                    </div>
-                </div>
-                <div>
-                    <input class="btn btn-info btn-dark" role="button" type="submit"></input>
-                </div>
+            </form>
+            <div>
+                <p id="contact-details">Or alternatively please contact us on 555 78945610 or at themanchestercattery@gmail.com</p>
             </div>
-        </form>
-        <div>
-            <p id="contact-details">Or alternatively please contact us on 555 78945610 or at themanchestercattery@gmail.com</p>
-        </div>
+        </main>
 
         <!--Footer-->
         <footer class="footer-container justify-content-around">
@@ -106,13 +120,23 @@
             <div class="social-container d-flex flex-column justify-content-center">
                 <div id="social-links">
                     <h3 class="text-uppercase">Social Media Links</h3>
-                    <a href="https://www.facebook.com" target="_blank" aria-label="Link to Facebook page"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.twitter.com" target="_blank" aria-label="Link to Twitter page"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.instagram.com" target="_blank" aria-label="Link to Instagram page"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.youtube.com" target="_blank" aria-label="Link to Youtube channel"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.facebook.com" target="_blank" aria-label="Link to Facebook page">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" aria-label="Link to Twitter page">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Link to Instagram page">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank" aria-label="Link to Youtube channel">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
                 </div>
                 <div>
-                    <p><em id="copyright">Copyright @ 2024 | The Manchester Cattery | All Rights Reserved.</em></p>
+                    <p>
+                        <em id="copyright">Copyright @ 2024 | The Manchester Cattery | All Rights Reserved.</em>
+                    </p>
                 </div>
             </div>
         </footer>
