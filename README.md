@@ -75,31 +75,38 @@ This is a page of lots of images of cats that have visited the cattery. The phot
 
 ## Contact Page
 
-This page has a contact form where if you want to enquire about your cat/s visit or stay you can do so by filling out the form. If you click on the submit button on the form it takes you to a separate thank-you page which information when you will hear back after filling in the form. Some of the form elements have the 'required' elements meaning that you can't leave those elements blank. Also there are some basic contact details on udnerneath the form as well.
+This page has a contact form where if you want to enquire about your cat/s visit or stay you can do so by filling out the form. If you click on the submit button on the form it takes you to a separate 'thank you' page which gives you information on when you will hear back after filling in the form. Some of the form elements have the 'required' elements meaning that you can't leave those elements blank. Also there are some basic contact details on udnerneath the form as well.
 
 ## Footer 
 
-The footer contains information on opening times, contact details, social media links. Also a copyright link at the bottom as well. On mobile and tablet devices the information is displayed in a block, but and larger size screens such as laptops the sections are spaced out in 3 columns. 
+The footer contains information on opening times, contact details, social media links. Also a copyright link at the bottom as well. On mobile and tablet devices the information is displayed in a block, but on larger size screens such as laptops the sections are spaced out in three columns. 
 
 ## Thank-you Page
 
-This isn't an official page that is on the Navigation Bar. This is the page that it takes you to when you click on the submit button on the contact form page.
+This isn't an official page that is on the Navigation Bar. This is the page that it takes you to when you click on the submit button on the contact form page. It features the logo and title of the Cattery with a short paragraph underneath of about the form response time.
+
+## Future Features
+
+* Add a hamburger menu to the Navbar.
+* Add audio/video clips perhaps.
+* Expand on the form and content perhaps.
+* Add more interactivity and Javascript to the website.
 
 # Fonts/Typography and colors
 
-I have used a Roboto font for the title, with a back up of Helvetica, then sans-serif. The rest of the text is just as it comes.
+I have used a Roboto font for the title, with a back up of Helvetica, then sans-serif. The rest of the text I have used is Verdana. I have capatilised all titles and headings to make it stand out.
 
-For the colours there are four main colours across the website. For all the text I have used a black text. I have used a dark grey colour for the navigation bar. For the footer I have used a light/pale yellow colour. The background is a white background. I wanted to keep it simple to improve user experience. Any other colours used across the website are just on the photos/header image across the website.
+For the colours there are four main colours across the website. For all the text I have used a black text. I have used a dark grey colour for the navigation bar with a light grey colour for the box-shadow. For the form container I have used a green background with a double-lined black border around the edge, with a light grey colour for the box-shadow. For the footer I have used a light/pale yellow colour. I wanted the background to be a plain and white to make the elements on the website visible and clear. I also wanted to keep it simple to improve user experience.  Any other colours used are across the website on the photos/header image.
 
 # Testing
 
 ## HTML and CSS Validator
 
-* For testing HTML I used the [HTML validator website]("https://validator.w3.org/") for each page.
+* For testing HTML I used the [HTML validator website](https://validator.w3.org/) for each page.
 ### Home Page - index.html
 ![Screenshot](documentation/screenshots/screenshot-home-page.png)
 ### About and Services Page
-![Screenshot](documentation/screenshots/screenshot-about+services.png)
+![Screenshot](documentation/screenshots/screenshot-about_services.png)
 ### Gallery Page
 ![Screenshot](documentation/screenshots/screenshot-gallery.png)
 ### Contact Page
@@ -107,9 +114,9 @@ For the colours there are four main colours across the website. For all the text
 ### Thank you Page
 ![Screenshot](documentation/screenshots/screenshot-thankyou.png)
 
-* For testing CSS I used the [CSS validator website]("https://jigsaw.w3.org/css-validator/").
+* For testing CSS I used the [CSS validator website](https://jigsaw.w3.org/css-validator/).
 
-![Screenshot](documentation/screenshots/screenshot-CSS-validation.png)
+![Screenshot](documentation/screenshots/screenshot-css-validation.png)
 
 ## Manual testing
 
@@ -140,13 +147,42 @@ For the colours there are four main colours across the website. For all the text
 * The user expects the website to run smoothly without error messages and the images to load without any issues.
     * I can confirm there are no error messages on the website, and the images load on all pages, even with a slight delay, on all pages of the website.
 
+## Lighthouse testing
+
+I have been testing through Google Lighthouse throughout my project and these are the final Lighthouse scores below. Please see in the 'Bugs' section below for issues that I had when running lighthouse.
+
+### Home Page
+
+![Mobile]
+![Desktop]
+
+### About and Services Page
+
+![Mobile]
+![Desktop]
+
+### Gallery Page
+
+![Mobile]
+![Desktop]
+
+### Contact Page
+
+![Mobile]
+![Desktop]
+
+### Thank you Page
+
+![Mobile]
+![Desktop]
+
 ## Bugs
    
 ### Solved Bugs
-* Centering elements and layout issues on the web pages for different screen sizes due to responsiveness 
-
-### Unsolved
+* Centering elements and layout issues on the web pages for different screen sizes due to responsiveness. 
 * Submit button opening up in separate thank you page even when form hasn't been filled in when clicked.
+
+### Unsolved Bugs
 * With images being compressed before and after converting them to WebP, performance is still quite low on some pages on  some screen sizes when running Google Lighthouse. 
 * Aspect ratio and low resolution issues for images when running Google Lighthouse.
 * Layout shift issues when running Google Lighthouse.
@@ -155,25 +191,25 @@ For the colours there are four main colours across the website. For all the text
 
 ## Content
 
-* Help with documentation for any code was from the [official Bootstrap website]("https://getbootstrap.com/docs/5.3/getting-started/introduction/") and [W3 schools]("https://www.w3schools.com/") websites. 
+* Help with documentation for any code was from the [official Bootstrap website]("https://getbootstrap.com/docs/5.3/getting-started/introduction/") and [W3 schools](https://www.w3schools.com/) websites. 
 
-* Code I used/altered for the submit button was from the second snippet of code from this [Stack Overflow Page]("https://stackoverflow.com/questions/34821728/how-can-i-make-a-button-link-to-another-page"). I had to alter it based on the html validator results.
+* The colour I chose for the footer was from [the rgb color code website](https://rgbcolorcode.com/).
 
-* The colour I chose for the footer was from [the rgb color code website]("https://rgbcolorcode.com/").
+* The icons in the footer used were from [FontAwesome](https://fontawesome.com/icons).
 
-* The icons in the footer used were from [FontAwesome]("https://fontawesome.com/icons").
+* Markdown help for the Readme was from [this github repo](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links).
 
-* Markdown help for the Readme was from [this github repo]("https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links").
+* For removing some unused css I used the [Unused css website](https://unused-css.com/) and also dev tools on Google chrome.
 
-* For removing some unused css I used the [Unused css website]("https://unused-css.com/").
+* For help converting some css to Bootstrap I used the Bootstrap translator on [Rellaco](https://rellaco.com/bootstrap-translator/)
 
 ## Media
 
-* The photos of the cats across the website including the gallery page was from [Pexels]("https://www.pexels.com/").
+* The photos of the cats across the website including the gallery page was from [Pexels](https://www.pexels.com/).
 
-* For converting images to webp I used a website called [Pixelied]("https://pixelied.com/convert/jpg-converter/jpg-to-webp").
+* For converting images to webp I used a website called [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp).
 
-* For compressing images I used the [Tinypng]("https://tinypng.com/") website.
+* For compressing images I used the [Tinypng](https://tinypng.com/) website.
 
 Also thank you in general for the wonderful assistance from the slack community, tutor support and my mentor on Code Institute, and also tutorials/mentoring from the City of Bristol College.
 
@@ -181,13 +217,13 @@ Also thank you in general for the wonderful assistance from the slack community,
 
 ## Optional:
 
-First of all if you are wanting to use the project, you first need to fork [my repository]("https://github.com/hannahro15/Cattery-project") of the project.
+First of all if you are wanting to use the project, you first need to fork the [repository](https://github.com/hannahro15/Cattery-project) of the project.
 
-Click on the green code button on the top right of the screen and copy this [link to clone]("https://github.com/hannahro15/Cattery-project.git") and then do git clone followed by that link in your terminal to add it to your computer.
+Click on the green code button on the top right of the screen and copy this [link to clone](https://github.com/hannahro15/Cattery-project.git) and then do git clone followed by that link in your terminal to add it to your computer.
 
 ## Steps to deploy the website:
 
-Go to settings in [my repository]("https://github.com/hannahro15/Cattery-project").
+Go to settings in [repository](https://github.com/hannahro15/Cattery-project).
 
 Then on the side bar on the next page click on 'pages'.
 
@@ -197,6 +233,6 @@ Under the branch tab below, select main branch(could be master intead), and to t
 
 To the right of where the main/master branch were selected and '/root', then click save. 
 
-The website should now be working and this is the [link to the deployed site]("https://hannahro15.github.io/Cattery-project/").
+The website should now be working and this is the [link to the deployed site](https://hannahro15.github.io/Cattery-project/).
 
 
