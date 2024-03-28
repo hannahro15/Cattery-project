@@ -29,6 +29,10 @@ nav {
     background-color: #555555;
 }
 
+nav ul {
+    padding: 0;
+}
+
 nav li {
     padding: 15px;
     font-weight: bold;
@@ -113,15 +117,15 @@ body {
     font-weight: bold;
 }
 
-#gallery-container {
-    min-height: 70vh;
-}
-
 .img-fluid {
     height: 200px;
     width: 300px;
     padding: 10px;
     border-radius: 15px;
+}
+
+main .container-fluid {
+    text-align: center;
 }
 
 /*-------------------Contact----------*/
@@ -284,10 +288,8 @@ h3 {
 
     #about-title,
     #services-title {
-        text-align: center;
         font-size: 40px;
         padding: 10px;
-        text-decoration: underline;
     }
 
     #services-title {
@@ -301,11 +303,6 @@ h3 {
     #services-content li {
         margin-top: 20px;
         font-size: 1.5rem;
-    }
-
-    .gallery-container {
-        margin-bottom: 20px;
-        height: 70vh;
     }
 
     .label-div {
