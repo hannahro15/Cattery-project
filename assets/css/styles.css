@@ -174,20 +174,14 @@ textarea {
     width: 70%;
 }
 
+input[type="submit"] {
+    width: 70%;
+}
+
 #contact-details {
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 400px;
-}
-
-button > a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-button {
-    padding: 10px;
 }
 
 /*-------------------Footer----------*/
@@ -327,6 +321,10 @@ h3 {
     }
 
     .input-div {
+        width: 50%;
+    }
+
+    input[type="submit"] {
         width: 50%;
     }
 
