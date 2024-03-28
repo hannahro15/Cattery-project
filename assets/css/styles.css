@@ -60,7 +60,7 @@ body {
 }
 
 #home-page-image {
-    height: 275px;
+    height: auto;
     width: 183px;
     margin: 0 auto;
     display: block;
@@ -90,7 +90,7 @@ body {
 #about-image,
 #services-image {
     margin: 0 auto;
-    height: 20rem;
+    height: auto;
     width: 20rem;
     padding: 20px;
 }
@@ -246,7 +246,7 @@ h3 {
 
     #home-page-image {
         width: 253px;
-        height: 380px;
+        height: auto;
         padding: 10px;
         text-align: center;
     }
@@ -265,7 +265,7 @@ h3 {
     #about-image,
     #services-image {
         margin: 0 auto;
-        height: 20rem;
+        height: auto;
         width: 20rem;
         padding: 20px;
         float: left;
