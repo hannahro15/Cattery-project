@@ -12,7 +12,7 @@ h1 {
 }
 
 #logo {
-    width: 15px;
+    width: 12px;
     height: auto;
     padding: 5px;
 }
@@ -49,7 +49,7 @@ body {
 }
 
 .body-container {
-    min-height: 80vh;
+    min-height: 90vh;
 }
 
 /*-------------------Home Page-----*/
@@ -130,11 +130,7 @@ form {
     text-align: center;
 }
 
-#contactform-container {
-    min-height: 80vh;
-}
-
-#form-container {
+.form-container {
     border: 2px double black;
     box-shadow: 10px 5px 5px grey;
     background-color: green;
@@ -230,6 +226,12 @@ h3 {
         display: flex;
     }
 
+    #logo {
+        width: 15px;
+        height: auto;
+        padding: 5px;
+    }
+
     nav ul {
         text-align: center;
     }
@@ -301,6 +303,11 @@ h3 {
         font-size: 1.5rem;
     }
 
+    .gallery-container {
+        margin-bottom: 20px;
+        height: 70vh;
+    }
+
     .label-div {
         margin: 0 auto;
         clear: both;
@@ -316,6 +323,7 @@ h3 {
 
     #contact-details {
         text-align: center;
+        margin-bottom: 240px;
     }
 
     footer {
