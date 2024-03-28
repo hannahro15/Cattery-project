@@ -47,6 +47,10 @@ body {
     font-family: verdana;
 }
 
+.body-container {
+    min-height: 80vh;
+}
+
 /*-------------------Home Page-----*/
 
 #home-title {
@@ -67,10 +71,6 @@ body {
 #home-text-2 {
     font-size: 1rem;
     padding: 20px;
-}
-
-#home-text-2 {
-    margin-bottom: 380px;
 }
 
 /*---------------------About and Services Page --------*/
@@ -105,15 +105,15 @@ body {
     font-size: 1rem;
 }
 
-#services-content {
-    margin-bottom: 250px;
-}
-
 /*-------------------Gallery----------*/
 
 #gallery {
     padding: 10px;
     font-weight: bold;
+}
+
+#gallery-container {
+    min-height: 70vh;
 }
 
 .img-fluid {
@@ -123,18 +123,14 @@ body {
     border-radius: 15px;
 }
 
-.container-fluid {
-    margin-bottom: 520px;
-}
-
 /*-------------------Contact----------*/
 
 form {
     text-align: center;
 }
 
-#contact-us {
-    padding: 10px;
+#contactform-container {
+    min-height: 80vh;
 }
 
 #form-container {
@@ -145,6 +141,11 @@ form {
     margin: 0 auto;
     padding: 10px;
     color: white;
+    margin-top: 20px;
+}
+
+#contact-us {
+    padding: 10px;
 }
 
 .label-div,
@@ -181,7 +182,6 @@ input[type="submit"] {
 #contact-details {
     margin: 0 auto;
     padding: 20px;
-    margin-bottom: 400px;
 }
 
 /*-------------------Footer----------*/
@@ -190,9 +190,6 @@ footer {
     display: flex;
     background-color: lightgoldenrodyellow;
     width: 100%;
-    height: 360px;
-    position: fixed;
-    bottom: 0;
     text-align: center;
 }
 
@@ -205,10 +202,7 @@ i {
     padding: 5px;
 }
 
-.contact-container {
-    margin-top: 10px;
-}
-
+.footer-container,
 #copyright {
     padding: 10px;
 }
@@ -261,12 +255,7 @@ h3 {
     #home-text-2 {
         margin-left: 60px;
         margin-right: 40px;
-        float: left;
         font-size: 1.5rem;
-    }
-
-    #home-text-2 {
-        margin-bottom: 380px;
     }
 
     #about-image {
@@ -299,7 +288,7 @@ h3 {
     }
 
     #services-title {
-        margin-top: 250px;
+        margin-top: 220px;
     }
 
     #services-image {
@@ -309,10 +298,6 @@ h3 {
     #services-content li {
         margin-top: 20px;
         font-size: 1.5rem;
-    }
-
-    .container-fluid {
-        margin-bottom: 300px;
     }
 
     .label-div {
@@ -330,28 +315,21 @@ h3 {
 
     #contact-details {
         text-align: center;
-        margin-bottom: 400px;
     }
+
     footer {
-        height: 200px;
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .footer-container {
-        height: 350px;
-        font-size: 12px;
+    footer h3 {
+        font-size: 15px;
+        font-weight: bold;
     }
 
-    footer div p {
+    footer p {
         font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 380px) {
-    .container-fluid {
-        margin: 0 auto;
     }
 }
 
@@ -373,30 +351,8 @@ h3 {
         display: block;
     }
 
-    #services-section {
-        margin-bottom: 400px;
-    }
-
-    .container-fluid {
-        margin-bottom: 400px;
-    }
-
     footer {
         display: block;
-        height: 390px;
-    }
-    .contact-container {
-        margin-top: 20px;
     }
 }
 
-@media screen and (max-width: 280px) {
-    footer h3 {
-        font-size: 15px;
-        font-weight: bold;
-    }
-
-    footer p {
-        font-size: 12px;
-    }
-}
