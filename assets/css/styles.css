@@ -12,7 +12,7 @@ h1 {
 
 #logo {
     width: 15px;
-    height: 15px;
+    height: auto;
     padding: 5px;
 }
 
