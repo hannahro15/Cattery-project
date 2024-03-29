@@ -203,6 +203,10 @@ i {
     padding: 5px;
 }
 
+#social-links a {
+    text-decoration: none;
+}
+
 .footer-container,
 #copyright {
     padding: 10px;
