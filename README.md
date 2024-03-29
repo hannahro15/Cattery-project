@@ -153,28 +153,38 @@ I have been testing through Google Lighthouse throughout my project and these ar
 
 ### Home Page
 
-![Mobile]
-![Desktop]
+#### Mobile
+![Mobile](documentation/screenshots/lighthouse-mob-home.png)
+#### Desktop
+![Desktop](documentation/screenshots/lighthouse-desktop-home.png)
 
 ### About and Services Page
 
-![Mobile]
-![Desktop]
+#### Mobile
+![Mobile](documentation/screenshots/lighthouse-mob-about_services.png)
+#### Desktop
+![Desktop](documentation/screenshots/lighthouse-desktop-about_services.png)
 
 ### Gallery Page
 
-![Mobile]
-![Desktop]
+#### Mobile
+![Mobile](documentation/screenshots/lighthouse-mob-gallery.png)
+#### Desktop
+![Desktop](documentation/screenshots/lighthouse-desktop-gallery.png)
 
 ### Contact Page
 
-![Mobile]
-![Desktop]
+#### Mobile
+![Mobile](documentation/screenshots/lighthouse-mob-contact.png)
+#### Desktop
+![Desktop](documentation/screenshots/lighthouse-desktop-contact.png)
 
 ### Thank you Page
 
-![Mobile]
-![Desktop]
+#### Mobile
+![Mobile](documentation/screenshots/lighthouse-mob-thankyou.png)
+#### Desktop
+![Desktop](documentation/screenshots/lighthouse-desktop-thankyou.png)
 
 ## Bugs
    
