@@ -78,6 +78,10 @@ body {
     padding: 20px;
 }
 
+#home-text-2 {
+    padding-bottom: 100px;
+}
+
 /*---------------------About and Services Page --------*/
 
 #about-title,
@@ -346,6 +350,10 @@ h3 {
 @media screen and (max-width: 440px) {
     #logo-and-title {
         display: block;
+    }
+
+    footer {
+        height: 400px;
     }
 }
 
