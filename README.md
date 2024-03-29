@@ -55,42 +55,61 @@ This first milestone 1 project is a website for a fake cattery business called '
 
 ## Header
 
-The header features a logo that I designed on canva and the title to the right of it. In small screens the logo is positioned on top of the title. There is a header image too taking up the whole width but that is only on the home page.
+The header features a logo that I designed on canva and the title to the right of it. In small screens the logo is positioned on top of the title. There is a header image too taking up the whole width but that is only on the home page. On just the home page is a header image.
+
+![Screenshot](documentation/screenshots/header-image.png)
 
 ## Navbar 
 
 The Navigation Bar has four links which are 'Home', 'About and Services', 'Gallery' and 'Contact' On small screens such as mobile devices the links are positioned underneath one another, and for larger screens for tablets and laptops the links are all positioned in a row spaced out. 
 
+### Mobile view
+![Screenshot](documentation/screenshots/navbar-mobile.png)
+### Desktop view
+![Screenshot](documentation/screenshots/navbar-desktop.png)
+
 ## Home Page
 
 This page features a photo and some basic information and introduction about the cattery itself underneath it. The header image is only featured on this page which I mentioned above.
+
+![Screenshot](documentation/screenshots/home-page.png)
 
 ## About and Services Page
 
 This is a page about the cattery itself and the services that it provides along with a couple of photos too. 
 
+![Screenshot](documentation/screenshots/about_services_page.png)
+
 ## Gallery Page
 
 This is a page of lots of images of cats that have visited the cattery. The photos were taken from [Pexels](www.pexels.com) website. This page was created using Bootstrap flexbox.
+
+![Screenshot](documentation/screenshots/gallery_page.png)
 
 ## Contact Page
 
 This page has a contact form where if you want to enquire about your cat/s visit or stay you can do so by filling out the form. If you click on the submit button on the form it takes you to a separate 'thank you' page which gives you information on when you will hear back after filling in the form. Some of the form elements have the 'required' elements meaning that you can't leave those elements blank. Also there are some basic contact details on udnerneath the form as well.
 
+![Screenshot](documentation/screenshots/contact-page.png)
+
 ## Footer 
 
 The footer contains information on opening times, contact details, social media links. Also a copyright link at the bottom as well. On mobile and tablet devices the information is displayed in a block, but on larger size screens such as laptops the sections are spaced out in three columns. 
+
+![Screenshot](documentation/screenshots/footer-screenshot.png)
 
 ## Thank-you Page
 
 This isn't an official page that is on the Navigation Bar. This is the page that it takes you to when you click on the submit button on the contact form page. It features the logo and title of the Cattery with a short paragraph underneath of about the form response time.
 
-## Future Features
+![Screenshot](documentation/screenshots/thankyou-page.png)
+
+## Possible Future Features
 
 * Add a hamburger menu to the Navbar.
-* Add audio/video clips perhaps.
-* Expand on the form and content perhaps.
-* Add more interactivity and Javascript to the website.
+* Add audio/video clips.
+* Expand on the form and content.
+* Add more interactivity and some Javascript to the website.
 
 # Fonts/Typography and colors
 
@@ -147,6 +166,8 @@ For the colours there are four main colours across the website. For all the text
 * The user expects the website to run smoothly without error messages and the images to load without any issues.
     * I can confirm there are no error messages on the website, and the images load on all pages, even with a slight delay, on all pages of the website.
 
+I also tested it in my mobile to check everything was working properly as I found dev tools to sometimes differ in appearance to what it really was in the desktop or mobile.
+
 ## Lighthouse testing
 
 I have been testing through Google Lighthouse throughout my project and these are the final Lighthouse scores below. Please see in the 'Bugs' section below for issues that I had when running lighthouse.
@@ -190,11 +211,11 @@ I have been testing through Google Lighthouse throughout my project and these ar
    
 ### Solved Bugs
 * Centering elements and layout issues on the web pages for different screen sizes due to responsiveness. 
-* Submit button opening up in separate thank you page even when form hasn't been filled in when clicked.
+* Submit button opening up in separate thank you page even when form hasn't been filled in when clicked. Solved this by changing the anchor tag to an input tag and and having a type button called 'submit'
 
 ### Unsolved Bugs
 * With images being compressed before and after converting them to WebP, performance is still quite low on some pages on  some screen sizes when running Google Lighthouse. 
-* Aspect ratio and low resolution issues for images when running Google Lighthouse.
+* Aspect ratio and low resolution issues for images when running Google Lighthouse. Low resolution is on the logo on small screens.
 * Layout shift issues when running Google Lighthouse.
 
 # Credits
@@ -209,9 +230,13 @@ I have been testing through Google Lighthouse throughout my project and these ar
 
 * Markdown help for the Readme was from [this github repo](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links).
 
-* For removing some unused css I used the [Unused css website](https://unused-css.com/) and also dev tools on Google chrome.
+* For removing some unused css I used the [unused css website](https://unused-css.com/) and also dev tools on Google chrome.
 
 * For help converting some css to Bootstrap I used the Bootstrap translator on [Rellaco](https://rellaco.com/bootstrap-translator/)
+
+* For pushing the footer to the bottom after removing the position fixed I used some of this code on [this](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/) webpage. The 30 seconds of code website about the footer being on the bottom.
+
+* For testing responsiveness I used a website called ['Am I responsive'](https://ui.dev/amiresponsive) and also for taking screenshots of the web pages.
 
 ## Media
 
@@ -229,11 +254,15 @@ Also thank you in general for the wonderful assistance from the slack community,
 
 First of all if you are wanting to use the project, you first need to fork the [repository](https://github.com/hannahro15/Cattery-project) of the project.
 
-Click on the green code button on the top right of the screen and copy this [link to clone](https://github.com/hannahro15/Cattery-project.git) and then do git clone followed by that link in your terminal to add it to your computer.
+Click on the green code button on the top right of the screen.
+
+Copy this [link to clone](https://github.com/hannahro15/Cattery-project.git).
+
+Then do git clone followed by that link in your terminal to add it to your computer.
 
 ## Steps to deploy the website:
 
-Go to settings in [repository](https://github.com/hannahro15/Cattery-project).
+Go to settings in your [repository](https://github.com/hannahro15/Cattery-project).
 
 Then on the side bar on the next page click on 'pages'.
 
