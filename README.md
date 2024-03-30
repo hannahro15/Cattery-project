@@ -3,7 +3,11 @@
 
 ## Project Introduction
 
-This first milestone 1 project is a website for a fake cattery business called 'The Manchester Cattery'. The website is suitable for anyone who is looking for a place for their cat/s to stay for one or more nights when their owner is away for a period of time.
+This milestone 1 project is a website I built for a fake cattery business called 'The Manchester Cattery'. The website is suitable for cat owners who are looking for a place for their cat/s to stay for one or more nights when their owner is away for a period of time. 
+
+The website has four main pages to the website, a home page, an about and services page, a gallery page, and a contact page. There is also a separate 'thank you' page that it takes you in a new tab when clicking on the submit button after filling out the form on the contact page.
+
+To view the project live, please click on [this link](https://hannahro15.github.io/Cattery-project/) to the project.
 
 # UX
 
@@ -53,15 +57,17 @@ This first milestone 1 project is a website for a fake cattery business called '
 
 # Features
 
+Here is some information about the features and pages of the websites listed below along with the relevant screenshots.
+
 ## Header
 
-The header features a logo that I designed on canva and the title to the right of it. In small screens the logo is positioned on top of the title. There is a header image too taking up the whole width but that is only on the home page. On just the home page is a header image.
+The header features a logo that I designed on Canva along the title which appears to the right of the logo. In small screens, the logo is positioned on top of the title. There is a header image below that taking up the whole width but the header image is only featured on the home page. 
 
 ![Screenshot](documentation/screenshots/header-image.png)
 
 ## Navbar 
 
-The Navigation Bar has four links which are 'Home', 'About and Services', 'Gallery' and 'Contact' On small screens such as mobile devices the links are positioned underneath one another, and for larger screens for tablets and laptops the links are all positioned in a row spaced out. 
+The navigation bar has four links to each of the pages which are 'Home', 'About and Services', 'Gallery' and 'Contact' On small screens such as mobile devices the links are positioned underneath one another, and for larger screens for tablets and laptops the links are all positioned in a row spaced out. 
 
 ### Mobile view
 ![Screenshot](documentation/screenshots/navbar-mobile.png)
@@ -98,7 +104,7 @@ The footer contains information on opening times, contact details, social media 
 
 ![Screenshot](documentation/screenshots/footer-screenshot.png)
 
-## Thank-you Page
+## Thank you Page
 
 This isn't an official page that is on the Navigation Bar. This is the page that it takes you to when you click on the submit button on the contact form page. It features the logo and title of the Cattery with a short paragraph underneath of about the form response time.
 
@@ -106,20 +112,44 @@ This isn't an official page that is on the Navigation Bar. This is the page that
 
 ## Possible Future Features
 
+Here is a list of possible features below that could be added in the future to improve the website.
+
 * Add a hamburger menu to the Navbar.
 * Add audio/video clips.
-* Expand on the form and content.
+* Expand on the contact form and content throughout the website.
 * Add more interactivity and some Javascript to the website.
 
 # Fonts/Typography and colors
 
-I have used a Roboto font for the title, with a back up of Helvetica, then sans-serif. The rest of the text I have used is Verdana. I have capatilised all titles and headings to make it stand out.
+## Fonts 
 
-For the colours there are four main colours across the website. For all the text I have used a black text. I have used a dark grey colour for the navigation bar with a light grey colour for the box-shadow. For the form container I have used a green background with a double-lined black border around the edge, with a light grey colour for the box-shadow. For the footer I have used a light/pale yellow colour. I wanted the background to be a plain and white to make the elements on the website visible and clear. I also wanted to keep it simple to improve user experience.  Any other colours used are across the website on the photos/header image.
+* I have used a Roboto font for the title, with a back up of Helvetica, then sans-serif. 
+
+* For all text other than the title the font I have used is Verdana. 
+
+* I have capitalised all titles and headings to make it stand out.
+
+## Colours
+
+* For the colours there are four main colours across the website. 
+
+* For all the text I have used a black text. 
+
+* I have used a dark grey colour for the navigation bar with a light grey colour for the box-shadow. 
+
+* For the form container I have used a green background with a double-lined black border around the edge, with a light grey colour for the box-shadow. 
+
+* For the footer I have used a light/pale yellow colour called a Golden Rod Eye yellow. 
+
+* For the background I wanted it to be a plain and white to make the elements on the website visible and clear. I also wanted to keep it simple to improve user experience.  
+
+* Any other colours used are across the website are on the photos across the website and on the header image.
 
 # Testing
 
 ## HTML and CSS Validator
+
+Throughout working on the project I used the HTML and CSS validators to check there were no errors in my code. Here are the screenshots once everything had been validated.
 
 * For testing HTML I used the [HTML validator website](https://validator.w3.org/) for each page.
 ### Home Page - index.html
@@ -139,38 +169,29 @@ For the colours there are four main colours across the website. For all the text
 
 ## Manual testing
 
-* The user should be able to find out the purpose of the website and what it is about.
-    * I can confirm this information is clear on the website what it is about and its purpose.
+I have manually tested my website on my mobile and desktop using the user stories mentioned above and I can confirm the following below:
 
-* The user should be able to find out information about the cattery itself and the services that it provides.
-    * I can confirm this information can be found on the 'About and Services Page'.
+* I can easily find out the purpose of the website and what it is about.
 
-* The user should be able to navigate between different links on the nav bar and across the website easily and take you to the correct page.
-    * I can confirm when clicking on all the links it takes you to the correct page and the website is easy to navigate.
+* I can find out the information about the cattery itself and the services which can be found on the 'About and Services Page'.
 
-* As a user they should be able to easily find opening hours, contact and address information on the website.
-    * I can confirm that this information can be found on the footer on all pages of the website.
+* When clicking on the navigation bar all the links takes me to the correct page and also the website is easy to navigate.
 
-* When a user clicks on the social media links, it should open up in a new tab in the correct platform.
-    * I can confirm when I click on all the social media links on the footer on all pages it opens up in a new tab in the correct platform.
+* I can easily find the opening hours, contact and address information on the website which can be found on the footer on all pages and all screen sizes. Also some of the contact details are found on the contact page underneath the form.
 
-* As a user they should be able to see pictures of lots of cats on the gallery page.
-    * On the gallery page I can confirm there are pictures of lots of cats on the gallery page.
+* When I click on all the social media links in the footer on all pages they open up in a new tab in the correct platform.
 
-* Users should be able to fill out details on the form and when clicking on the submit button to take you to 'thank you' page in an new tab.
-    * I can confirm details can be entered on the contact form and when submitting it takes you to a separate thank you page in a new tab.
+* The gallery page has lots of pictures of cats.
 
-* As a user they should expect the website to be responsive and for everything to be seen clearly on different size screens such as mobile, tablet, and desktop.
-    * I have tested this in dev tools and I can confirm my website is responsive across all different devices and screen sizes.
+* I can confirm that once details have been entered on the contact form and when submitting it that it takes you to a separate thank you page in a new tab. This is has been checked using form validation.
 
-* The user expects the website to run smoothly without error messages and the images to load without any issues.
-    * I can confirm there are no error messages on the website, and the images load on all pages, even with a slight delay, on all pages of the website.
+* I have tested responsiveness in dev tools and I can confirm my website is responsive across all different devices and screen sizes, and everything can be seen clearly.
 
-I also tested it in my mobile to check everything was working properly as I found dev tools to sometimes differ in appearance to what it really was in the desktop or mobile.
+* I can confirm there are no error messages on the website, and that the images load ok.
 
-## Lighthouse testing
+## Lighthouse Testing
 
-I have been testing through Google Lighthouse throughout my project and these are the final Lighthouse scores below. Please see in the 'Bugs' section below for issues that I had when running lighthouse.
+I have been testing through Lighthouse using the Page Speed insights website throught the project. Here is the [link](https://pagespeed.web.dev/) of the website. These are screenshots of the final Lighthouse scores below for both mobile and desktop on each page for 'Performance', 'Accessibility', 'Best Practices' and 'SEO' although they can vary slightly. Please see in the 'Bugs' in the section below this for issues that I had when running lighthouse along with other issues.
 
 ### Home Page
 
@@ -217,12 +238,17 @@ I have been testing through Google Lighthouse throughout my project and these ar
 * With images being compressed before and after converting them to WebP, performance is still quite low on some pages on  some screen sizes when running Google Lighthouse. 
 * Aspect ratio and low resolution issues for images when running Google Lighthouse. Low resolution is on the logo on small screens.
 * Layout shift issues when running Google Lighthouse.
+* Dev tools showed more white space on the bottom of some pages when I clicked on the various breakpoints compared to when I checked on my own desktop, mobile and on the 'Am I responsive website'. When I tried correcting the white space based on dev tools especially for my home page it changed the appearance of the page on my own mobile some of the content went over the footer.
 
 # Credits
 
 ## Content
 
-* Help with documentation for any code was from the [official Bootstrap website]("https://getbootstrap.com/docs/5.3/getting-started/introduction/") and [W3 schools](https://www.w3schools.com/) websites. 
+*  For creating the logo I used [Canva](https://www.canva.com/).
+
+* For validating HTML and CSS throughout the project I used [the HTML validator website](https://validator.w3.org/) and [the CSS validator website](https://jigsaw.w3.org/css-validator/).
+
+* Help with documentation for the basic structure of code was from the [official Bootstrap website]("https://getbootstrap.com/docs/5.3/getting-started/introduction/") and [W3 schools](https://www.w3schools.com/) websites. 
 
 * The colour I chose for the footer was from [the rgb color code website](https://rgbcolorcode.com/).
 
@@ -230,13 +256,17 @@ I have been testing through Google Lighthouse throughout my project and these ar
 
 * Markdown help for the Readme was from [this github repo](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links).
 
-* For removing some unused css I used the [unused css website](https://unused-css.com/) and also dev tools on Google chrome.
+* For help with putting in the box shadow around the navigation bar and the contact form I used most of the top line of the code in the demo box from the information on box shadows on [mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow). I changed the colour and the type of border. 
 
-* For help converting some css to Bootstrap I used the Bootstrap translator on [Rellaco](https://rellaco.com/bootstrap-translator/)
+* For help with removing some unused css I used the [unused css website](https://unused-css.com/) and also dev tools on Google chrome.
+
+* For help converting some css to Bootstrap I used the Bootstrap translator on [Rellaco](https://rellaco.com/bootstrap-translator/).
 
 * For pushing the footer to the bottom after removing the position fixed I used some of this code on [this](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/) webpage. The 30 seconds of code website about the footer being on the bottom.
 
-* For testing responsiveness I used a website called ['Am I responsive'](https://ui.dev/amiresponsive) and also for taking screenshots of the web pages.
+* For testing performance, accessibility, best practices and SEO on all pages I used a website called Page Speed Insights [link](https://pagespeed.web.dev/) which is very similar to Google Lighthouse on dev tools but more reliable.
+
+* For testing responsiveness I used a website called ['Am I responsive'](https://ui.dev/amiresponsive) and also for taking screenshots of the different pages on the website.
 
 ## Media
 
