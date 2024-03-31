@@ -46,7 +46,13 @@ body {
     font-family: verdana;
 }
 
-.body-container {
+.body-container-1 {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container-2 {
     min-height: 90vh;
     display: flex;
     flex-direction: column;
