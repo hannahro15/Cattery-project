@@ -282,17 +282,17 @@ Also thank you in general for the wonderful assistance from the slack community,
 
 # Deployment
 
-## Optional:
+## Steps for local deployment
 
-First of all if you are wanting to use the project, you first need to fork the [repository](https://github.com/hannahro15/Cattery-project) of the project.
+Fork the [repository](https://github.com/hannahro15/Cattery-project).
 
-Click on the green code button on the top right of the screen.
+Click on the green code button .
 
-Copy this [link to clone](https://github.com/hannahro15/Cattery-project.git).
+Copy the url link.
 
-Then do git clone followed by that link in your terminal to add it to your computer.
+Type git clone followed by that url [link ](https://github.com/hannahro15/Cattery-project.git) in your terminal to add/clone it to your computer.
 
-## Steps to deploy the website:
+## Steps to deploy the website to GitHub Pages
 
 Go to settings in your [repository](https://github.com/hannahro15/Cattery-project).
 
@@ -300,10 +300,10 @@ Then on the side bar on the next page click on 'pages'.
 
 After that, click on deploy from branch under the source tab.
 
-Under the branch tab below, select main branch(could be master intead), and to the right of it select where it says /root. 
+Under the branch tab below, select main branch(could be master instead), and to the right of it select where it says /root. 
 
 To the right of where the main/master branch were selected and '/root', then click save. 
 
-The website should now be working and this is the [link to the deployed site](https://hannahro15.github.io/Cattery-project/).
+The website should now be working and this is the [link to the deployed site](https://hannahro15.github.io/Cattery-project/) which is found in your repository.
 
 
