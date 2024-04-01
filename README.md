@@ -35,11 +35,11 @@ To view the project live, please click on [this link](https://hannahro15.github.
 
 ### Home Page 
 
-![Screenshots](documentation/wireframes/home-page.png)
+![Screenshots](documentation/wireframes/home.png)
 
 ### About and Services Page
 
-![Screenshots](documentation/wireframes/about+services.png)
+![Screenshots](documentation/wireframes/about_services.png)
 
 ### Gallery Page
 
@@ -115,9 +115,10 @@ This isn't an official page that is on the Navigation Bar. This is the page that
 Here is a list of possible features below that could be added in the future to improve the website.
 
 * Add a hamburger menu to the Navbar.
+* Add map to the website.
 * Add audio/video clips.
 * Expand on the contact form and content throughout the website.
-* Add more interactivity and some Javascript to the website.
+* Add more interactivity/Javascript to the website.
 
 # Fonts/Typography and colors
 
@@ -231,14 +232,15 @@ I have been testing through Lighthouse using the Page Speed insights website thr
 ## Bugs
    
 ### Solved Bugs
-* Centering elements and layout issues on the web pages for different screen sizes due to responsiveness. 
-* Submit button opening up in separate thank you page even when form hasn't been filled in when clicked. Solved this by changing the anchor tag to an input tag and and having a type button called 'submit'
+* Centering elements, especially the logo, and other layout issues on the web pages for different screen sizes due to responsiveness. 
+* Dev tools showing more white space on the bottom of some pages when I clicked on the various breakpoints compared to when I checked on my own desktop, mobile and on the 'Am I responsive website'. 
+* Submit button opening up in separate thank you page even when form hasn't been filled in when clicked. Solved this by changing the anchor tag to an input tag and and having a type button called 'submit'.
 
 ### Unsolved Bugs
-* With images being compressed before and after converting them to WebP, performance is still quite low on some pages on  some screen sizes when running Google Lighthouse. 
-* Aspect ratio and low resolution issues for images when running Google Lighthouse. Low resolution is on the logo on small screens.
-* Layout shift issues when running Google Lighthouse.
-* Dev tools showed more white space on the bottom of some pages when I clicked on the various breakpoints compared to when I checked on my own desktop, mobile and on the 'Am I responsive website'. When I tried correcting the white space based on dev tools especially for my home page it changed the appearance of the page on my own mobile some of the content went over the footer.
+* With images being compressed before and after converting them to WebP, performance is still quite low on some pages on some screen sizes when running Google Lighthouse, especially on home page and gallery.
+* Logo which I created in Canva has a low resolution issue on small screens according to Google Lighthouse but it is fine on desktop, even after converting to webp and compressing, and also re-running Lighthouse on the Page Speed Insights  website again afterwards. The logo doesn't at all look pixelated or fuzzy though, and it looks very clear on all screen sizes on my desktop and mobile.
+
+
 
 # Credits
 
