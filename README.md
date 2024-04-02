@@ -9,9 +9,9 @@ The website has four main pages to the website, a home page, an about and servic
 
 To view the project live, please click on [this link](https://hannahro15.github.io/Cattery-project/) to the project.
 
-# UX
+## UX
 
-## User stories
+### User stories
 
 * The user should be able to find out the purpose of the website and what it is about.
 
@@ -31,98 +31,98 @@ To view the project live, please click on [this link](https://hannahro15.github.
 
 * The user expects the website to run smoothly without error messages and the images to load without any issues.
 
-## Wireframes
+### Wireframes
 
-### Home Page 
+#### Home Page 
 
 ![Screenshots](documentation/wireframes/home.png)
 
-### About and Services Page
+#### About and Services Page
 
 ![Screenshots](documentation/wireframes/about_services.png)
 
-### Gallery Page
+#### Gallery Page
 
 ![Screenshots](documentation/wireframes/gallery.png)
 
-### Contact Page
+#### Contact Page
 
 ![Screenshots](documentation/wireframes/contact.png)
 
-# Languages and Frameworks used
+## Languages and Frameworks used
 
 * HTML
 * CSS
 * Bootstrap 5
 
-# Features
+## Existing Features
 
 Here is some information about the features and pages of the websites listed below along with the relevant screenshots.
 
-## Header
+### Header
 
 The header features a logo that I designed on Canva along the title which appears to the right of the logo. In small screens, the logo is positioned on top of the title. There is a header image below that taking up the whole width but the header image is only featured on the home page. 
 
 ![Screenshot](documentation/screenshots/header-image.png)
 
-## Navbar 
+### Navbar 
 
 The navigation bar has four links to each of the pages which are 'Home', 'About and Services', 'Gallery' and 'Contact' On small screens such as mobile devices the links are positioned underneath one another, and for larger screens for tablets and laptops the links are all positioned in a row spaced out. 
 
-### Mobile view
+#### Mobile view
 ![Screenshot](documentation/screenshots/navbar-mobile.png)
-### Desktop view
+#### Desktop view
 ![Screenshot](documentation/screenshots/navbar-desktop.png)
 
-## Home Page
+### Home Page
 
 This page features a photo and some basic information and introduction about the cattery itself underneath it. The header image is only featured on this page which I mentioned above.
 
 ![Screenshot](documentation/screenshots/home-page.png)
 
-## About and Services Page
+### About and Services Page
 
 This is a page about the cattery itself and the services that it provides along with a couple of photos too. 
 
 ![Screenshot](documentation/screenshots/about_services_page.png)
 
-## Gallery Page
+### Gallery Page
 
-This is a page of lots of images of cats that have visited the cattery. The photos were taken from [Pexels](www.pexels.com) website. This page was created using Bootstrap flexbox.
+This is a page of lots of images of cats that have visited the cattery. The photos were taken from [Pexels](https://www.pexels.com/) website. This page was created using Bootstrap Flexbox.
 
 ![Screenshot](documentation/screenshots/gallery_page.png)
 
-## Contact Page
+### Contact Page
 
-This page has a contact form where if you want to enquire about your cat/s visit or stay you can do so by filling out the form. If you click on the submit button on the form it takes you to a separate 'thank you' page which gives you information on when you will hear back after filling in the form. Some of the form elements have the 'required' elements meaning that you can't leave those elements blank. Also there are some basic contact details on udnerneath the form as well.
+This page has a contact form where if you want to enquire about your cat/s visit or stay you can do so by filling out the form. If you click on the 'submit' button on the form it takes you to a separate 'thank you' page which gives you information on when you will hear back after filling in the form, providing everything is filled in. Some of the form elements have the 'required' elements meaning that you can't leave those elements blank, this is due to form validation. Also there are some basic contact details on underneath the form as well.
 
 ![Screenshot](documentation/screenshots/contact-page.png)
 
-## Footer 
+### Footer 
 
 The footer contains information on opening times, contact details, social media links. Also a copyright link at the bottom as well. On mobile and tablet devices the information is displayed in a block, but on larger size screens such as laptops the sections are spaced out in three columns. 
 
 ![Screenshot](documentation/screenshots/footer-screenshot.png)
 
-## Thank you Page
+### Thank you Page
 
-This isn't an official page that is on the Navigation Bar. This is the page that it takes you to when you click on the submit button on the contact form page. It features the logo and title of the Cattery with a short paragraph underneath of about the form response time.
+This isn't an official page that is part of the navigation bar. This is the page that it takes you to when you click on the submit button on the contact form page after filling the form out. It features the logo and title of the Cattery with a short paragraph underneath of about the form response time.
 
 ![Screenshot](documentation/screenshots/thankyou-page.png)
 
 ## Possible Future Features
 
-Here is a list of possible features below that could be added in the future to improve the website.
+Here is a list of possible features below that could be added in the future to enhance the website.
 
 * Add a hamburger menu to the Navbar.
-* Add map to the website.
+* Add a map to the website.
 * Add audio/video clips.
 * Expand on the contact form and content throughout the website.
 * Add more interactivity/Javascript to the website.
 
-# Fonts/Typography and colors
+## Fonts/Typography and colors
 
-## Fonts 
+### Fonts 
 
 * I have used a Roboto font for the title, with a back up of Helvetica, then sans-serif. 
 
@@ -130,7 +130,7 @@ Here is a list of possible features below that could be added in the future to i
 
 * I have capitalised all titles and headings to make it stand out.
 
-## Colours
+### Colours
 
 * For the colours there are four main colours across the website. 
 
@@ -146,29 +146,29 @@ Here is a list of possible features below that could be added in the future to i
 
 * Any other colours used are across the website are on the photos across the website and on the header image.
 
-# Testing
+## Testing
 
-## HTML and CSS Validator
+### HTML and CSS Validator
 
 Throughout working on the project I used the HTML and CSS validators to check there were no errors in my code. Here are the screenshots once everything had been validated.
 
 * For testing HTML I used the [HTML validator website](https://validator.w3.org/) for each page.
-### Home Page - index.html
+#### Home Page - index.html
 ![Screenshot](documentation/screenshots/screenshot-home-page.png)
-### About and Services Page
+#### About and Services Page
 ![Screenshot](documentation/screenshots/screenshot-about_services.png)
-### Gallery Page
+#### Gallery Page
 ![Screenshot](documentation/screenshots/screenshot-gallery.png)
-### Contact Page
+#### Contact Page
 ![Screenshot](documentation/screenshots/screenshot-contact-page.png)
-### Thank you Page
+#### Thank you Page
 ![Screenshot](documentation/screenshots/screenshot-thankyou.png)
 
 * For testing CSS I used the [CSS validator website](https://jigsaw.w3.org/css-validator/).
 
 ![Screenshot](documentation/screenshots/screenshot-css-validation.png)
 
-## Manual testing
+### Manual testing
 
 I have manually tested my website on my mobile and desktop using the user stories mentioned above and I can confirm the following below:
 
@@ -190,67 +190,72 @@ I have manually tested my website on my mobile and desktop using the user storie
 
 * I can confirm there are no error messages on the website, and that the images load ok.
 
-## Lighthouse Testing
+### Lighthouse Testing
 
-I have been testing through Lighthouse using the Page Speed insights website throught the project. Here is the [link](https://pagespeed.web.dev/) of the website. These are screenshots of the final Lighthouse scores below for both mobile and desktop on each page for 'Performance', 'Accessibility', 'Best Practices' and 'SEO' although they can vary slightly. Please see in the 'Bugs' in the section below this for issues that I had when running lighthouse along with other issues.
+I have been testing throughout my project on Lighthouse using the Page Speed Insights website throught the project. Here is the [link](https://pagespeed.web.dev/) of the website. These are screenshots of the final Lighthouse scores below for both mobile and desktop on each page for 'Performance', 'Accessibility', 'Best Practices' and 'SEO' although they can vary slightly each time you run it. Please see in the 'Bugs' section below for issues that I had when running lighthouse along with other issues.
 
-### Home Page
+#### Home Page
 
-#### Mobile
+##### Mobile
 ![Mobile](documentation/screenshots/lighthouse-mob-home.png)
-#### Desktop
+##### Desktop
 ![Desktop](documentation/screenshots/lighthouse-desktop-home.png)
 
-### About and Services Page
+#### About and Services Page
 
-#### Mobile
+##### Mobile
 ![Mobile](documentation/screenshots/lighthouse-mob-about_services.png)
-#### Desktop
+##### Desktop
 ![Desktop](documentation/screenshots/lighthouse-desktop-about_services.png)
 
-### Gallery Page
+#### Gallery Page
 
-#### Mobile
+##### Mobile
 ![Mobile](documentation/screenshots/lighthouse-mob-gallery.png)
-#### Desktop
+##### Desktop
 ![Desktop](documentation/screenshots/lighthouse-desktop-gallery.png)
 
-### Contact Page
+#### Contact Page
 
-#### Mobile
+##### Mobile
 ![Mobile](documentation/screenshots/lighthouse-mob-contact.png)
-#### Desktop
+##### Desktop
 ![Desktop](documentation/screenshots/lighthouse-desktop-contact.png)
 
-### Thank you Page
+#### Thank you Page
 
-#### Mobile
+##### Mobile
 ![Mobile](documentation/screenshots/lighthouse-mob-thankyou.png)
-#### Desktop
+##### Desktop
 ![Desktop](documentation/screenshots/lighthouse-desktop-thankyou.png)
 
-## Bugs
+### Bugs
    
-### Solved Bugs
+#### Solved Bugs
 * Centering elements, especially the logo, and other layout issues on the web pages for different screen sizes due to responsiveness. 
 * Dev tools showing more white space on the bottom of some pages when I clicked on the various breakpoints compared to when I checked on my own desktop, mobile and on the 'Am I responsive website'. 
-* Submit button opening up in separate thank you page even when form hasn't been filled in when clicked. Solved this by changing the anchor tag to an input tag and and having a type button called 'submit'.
+* Submit button opening up in separate thank you page even when form hasn't been filled in when clicked. Solved this by changing the anchor tag to an input tag and having a type button called 'submit'.
 
-### Unsolved Bugs
+#### Unsolved Bugs
 * With images being compressed before and after converting them to WebP, performance is still quite low on some pages on some screen sizes when running Google Lighthouse, especially on home page and gallery.
-* Logo which I created in Canva has a low resolution issue on small screens according to Google Lighthouse but it is fine on desktop, even after converting to webp and compressing, and also re-running Lighthouse on the Page Speed Insights  website again afterwards. The logo doesn't at all look pixelated or fuzzy though, and it looks very clear on all screen sizes on my desktop and mobile.
+* Logo which I created in Canva has a low resolution issue on small screens according to Google Lighthouse but it is fine on desktop. Even after converting to webp and compressing, and also re-running Lighthouse on the Page Speed Insights  website again it didn't change anything. The logo looks completely clear when you view the deployed website on all screen sizes.
 
 
+## Credits and Acknowledgments
 
-# Credits
+### Content
 
-## Content
+* For creating and designing the logo I used [Canva](https://www.canva.com/).
 
-*  For creating the logo I used [Canva](https://www.canva.com/).
+* For creating the wireframes I used [Balsamiq](https://balsamiq.com/wireframes/).
+
+* For completing the project I used [Gitpod](https://www.gitpod.io/).
+
+* For a place to store my project I used [Github](https://github.com/).
 
 * For validating HTML and CSS throughout the project I used [the HTML validator website](https://validator.w3.org/) and [the CSS validator website](https://jigsaw.w3.org/css-validator/).
 
-* Help with documentation for the basic structure of code was from the [official Bootstrap website]("https://getbootstrap.com/docs/5.3/getting-started/introduction/") and [W3 schools](https://www.w3schools.com/) websites. 
+* Help with documentation for the basic structure of code was from the [official Bootstrap website](https://getbootstrap.com/docs/5.3/getting-started/introduction/) and [W3 schools](https://www.w3schools.com/) websites. 
 
 * The colour I chose for the footer was from [the rgb color code website](https://rgbcolorcode.com/).
 
@@ -258,19 +263,21 @@ I have been testing through Lighthouse using the Page Speed insights website thr
 
 * Markdown help for the Readme was from [this github repo](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links).
 
-* For help with putting in the box shadow around the navigation bar and the contact form I used most of the top line of the code in the demo box from the information on box shadows on [mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow). I changed the colour and the type of border. 
+* For help with putting in the box shadow around the navigation bar and the contact form I used most of the top line of the code in the demo box from the information on box shadows from the [mdn docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow). I changed the colour and the type of border. 
 
 * For help with removing some unused css I used the [unused css website](https://unused-css.com/) and also dev tools on Google chrome.
 
 * For help converting some css to Bootstrap I used the Bootstrap translator on [Rellaco](https://rellaco.com/bootstrap-translator/).
 
-* For pushing the footer to the bottom after removing the position fixed I used some of this code on [this](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/) webpage. The 30 seconds of code website about the footer being on the bottom.
+* For pushing the footer to the bottom after removing the position fixed I used the 'margin-top: auto' property from this page on [this webpage](https://www.30secondsofcode.org/css/s/footer-at-the-bottom/). (Called the 30 seconds of code website and the page is about the footer being on the bottom).
 
 * For testing performance, accessibility, best practices and SEO on all pages I used a website called Page Speed Insights [link](https://pagespeed.web.dev/) which is very similar to Google Lighthouse on dev tools but more reliable.
 
-* For testing responsiveness I used a website called ['Am I responsive'](https://ui.dev/amiresponsive) and also for taking screenshots of the different pages on the website.
+* For testing responsiveness I used a website called [Am I responsive](https://ui.dev/amiresponsive) and also for taking screenshots of the different pages on the website.
 
-## Media
+* All content on the website was written myself.
+
+### Media
 
 * The photos of the cats across the website including the gallery page was from [Pexels](https://www.pexels.com/).
 
@@ -278,32 +285,33 @@ I have been testing through Lighthouse using the Page Speed insights website thr
 
 * For compressing images I used the [Tinypng](https://tinypng.com/) website.
 
-Also thank you in general for the wonderful assistance from the slack community, tutor support and my mentor on Code Institute, and also tutorials/mentoring from the City of Bristol College.
+Also thank you for the wonderful assistance from the slack community, tutor support and my mentor on Code Institute, and also tutorials/mentoring from the City of Bristol College.
 
-# Deployment
 
-## Steps for local deployment
+## Deployment
+
+### Steps for Local Deployment
 
 Fork the [repository](https://github.com/hannahro15/Cattery-project).
 
-Click on the green code button .
+Click on the green code button.
 
 Copy the url link.
 
-Type git clone followed by that url [link ](https://github.com/hannahro15/Cattery-project.git) in your terminal to add/clone it to your computer.
+Type git clone followed by that url link in your terminal to add/clone it to your computer.
 
-## Steps to deploy the website to GitHub Pages
+### Steps to deploy the website to GitHub Pages
 
 Go to settings in your [repository](https://github.com/hannahro15/Cattery-project).
 
-Then on the side bar on the next page click on 'pages'.
+On the side bar click on 'pages'.
 
-After that, click on deploy from branch under the source tab.
+Then click on 'deploy from branch' under the source tab.
 
-Under the branch tab below, select main branch(could be master instead), and to the right of it select where it says /root. 
+Under the branch tab below, select main branch (could be master instead), and to the right of it select where it says /root. 
 
-To the right of where the main/master branch were selected and '/root', then click save. 
+To the right of where the main/master branch were selected and '/root', and then click save. 
 
-The website should now be working and this is the [link to the deployed site](https://hannahro15.github.io/Cattery-project/) which is found in your repository.
+The website is now deployed and this is the [link to the deployed site](https://hannahro15.github.io/Cattery-project/) which is found in your repository.
 
 
