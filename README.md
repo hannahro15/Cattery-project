@@ -114,7 +114,7 @@ This isn't an official page that is part of the navigation bar. This is the page
 
 Here is a list of possible features below that could be added in the future to enhance the website.
 
-* Add a hamburger menu to the Navbar.
+* Add a hamburger menu to the navigation bar.
 * Add a map to the website.
 * Add audio/video clips.
 * Expand on the contact form and content throughout the website.
